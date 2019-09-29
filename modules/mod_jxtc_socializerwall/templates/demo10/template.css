@@ -1,0 +1,230 @@
+/* Sample CSS file */
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 10px 2px 10px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px 0 2px 10px ;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+.fivehundredpx {}
+.aboutme {}
+.amazon {color:#ebab22!important;}
+.aol {}
+.appstore {}
+.apple {}
+.bebo {color:#9b0004!important;}
+.behance {}
+.bing {}
+.blip {color:#e8292d!important;}
+.blogger {}
+.coroflot {}
+.daytum {}
+.delicious {color:#0010de!important;}
+.designbump {}
+.designfloat {}
+.deviantart {}
+.digg {}
+.dribble {}
+.drupal {}
+.email {} 
+.ebay {}
+.etsy {}
+.facebook {color:#6d84b4!important;}
+.feedburner {}
+.flickr {}
+.foodspotting {}
+.forrst {}
+.foursquare {}
+.friendsfeed {}
+.friendstar {}
+.gdgt{}
+.github {}
+.googleplus {}
+.googletalk {}
+.grooveshark {}
+.hyves {}
+.icondock {}
+.icq {}
+.identica {}
+.imessage {}
+.instagram {}
+.itunes {}
+.lastfm {}
+.linkedin {}
+.meetup {}
+.metacafe {}
+.mrwong {}
+.msn{}
+.myspace {}
+.newsvine {}
+.paypal {}
+.photobucket {}
+.picasa {}
+.pinterest {}
+.podcast {}
+.qik {}
+.quora {}
+.reddit {}
+.retweet {}
+.rss {}
+.scribd {}
+.sharethis {}
+.skype {}
+.slashdot {}
+.slideshare {}
+.smugmug {}
+.soundcloud {}
+.spotify {}
+.squidoo {}
+.stackoverflow {}
+.stumbleupon {}
+.technorati {}
+.tumblr {}
+.twitterbird {}
+.twitter {}
+.viddler {}
+.vimeo {}
+.virb {}
+.www {}
+.wikipedia {}
+.windows {}
+.wordpress {}
+.xing {}
+.yahoobuzz {}
+.yahoo {}
+.yelp {}
+.youtube {}
+
+
+.jxtc-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.jxtc-grid:after,
+.jxtc-item:before {
+	content: '';
+    display: table;
+}
+
+.jxtc-grid:after {
+	clear: both;
+}
+
+.jxtc-grid li {
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	
+}
+
+.jxtc-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	-webkit-perspective: 900px;
+	-moz-perspective: 900px;
+	-o-perspective: 900px;
+	-ms-perspective: 900px;
+	perspective: 900px;
+}
+.jxtc-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.jxtc-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-o-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.jxtc-info .jxtc-info-front {
+margin-top:50px;
+	
+}
+
+.jxtc-info .jxtc-info-back {
+	-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	background: #000;
+	opacity: 0;
+}
+
+.jxtc-img-1 { 
+	background:#333;
+}
+
+.jxtc-img-2 { 
+	background:#333;
+}
+
+.jxtc-img-3 { 
+	background:#333;
+}
+
+.jxtc-info h3 {
+	color: #fff!important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	margin: 0 15px;
+	padding: 30px 0 0 0;
+	height: 110px;
+	font-family: 'Open Sans', Arial, sans-serif;
+
+}
+
+
+
+.jxtc-item:hover .jxtc-info-front {
+	-webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.jxtc-item:hover .jxtc-info-back {
+	-webkit-transform: rotate3d(1,0,0,0deg);
+	-moz-transform: rotate3d(1,0,0,0deg);
+	-o-transform: rotate3d(1,0,0,0deg);
+	-ms-transform: rotate3d(1,0,0,0deg);
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+}

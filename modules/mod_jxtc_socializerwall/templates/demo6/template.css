@@ -1,0 +1,169 @@
+/* Sample CSS file */
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 10px 2px 10px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px 0 2px 10px ;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+
+.fivehundredpx {}
+.aboutme {}
+.amazon {}
+.aol {}
+.appstore {}
+.apple {}
+.bebo {}
+.behance {}
+.bing {}
+.blip {}
+.blogger {}
+.coroflot {}
+.daytum {}
+.delicious {}
+.designbump {}
+.designfloat {}
+.deviantart {}
+.digg {}
+.dribble {}
+.drupal {}
+.email {} 
+.ebay {}
+.etsy {}
+.facebook {}
+.feedburner {}
+.flickr {}
+.foodspotting {}
+.forrst {}
+.foursquare {}
+.friendsfeed {}
+.friendstar {}
+.gdgt{}
+.github {}
+.googleplus {}
+.googletalk {}
+.grooveshark {}
+.hyves {}
+.icondock {}
+.icq {}
+.identica {}
+.imessage {}
+.instagram {}
+.itunes {}
+.lastfm {}
+.linkedin {}
+.meetup {}
+.metacafe {}
+.mrwong {}
+.msn{}
+.myspace {}
+.newsvine {}
+.paypal {}
+.photobucket {}
+.picasa {}
+.pinterest {}
+.podcast {}
+.qik {}
+.quora {}
+.reddit {}
+.retweet {}
+.rss {}
+.scribd {}
+.sharethis {}
+.skype {}
+.slashdot {}
+.slideshare {}
+.smugmug {}
+.soundcloud {}
+.spotify {}
+.squidoo {}
+.stackoverflow {}
+.stumbleupon {}
+.technorati {}
+.tumblr {}
+.twitterbird {}
+.twitter {}
+.viddler {}
+.vimeo {}
+.virb {}
+.www {}
+.wikipedia {}
+.windows {}
+.wordpress {}
+.xing {}
+.yahoobuzz {}
+.yahoo {}
+.yelp {}
+.youtube {}
+
+
+.tt-wrapper{
+	padding: 0;
+	width: 435px;
+	height: 70px;
+	margin: 80px auto 30px auto;
+}
+.tt-wrapper li{
+	float: left;
+}
+
+.tip{
+	width: 90px;
+	height: auto;
+	line-height: 20px;
+	padding: 12px 0px 24px 0px;
+	left: 50%;
+	margin: -30px 0 0 -10px;
+	font-family: 'Alegreya SC', Georgia, serif;
+	font-weight: 400;	
+	font-style: italic;
+	font-size: 14px;
+	color: #719DAB;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 4px solid #fff;
+	background: #FFF;
+	text-indent: 0px;
+	border-radius: 5px;
+	position: absolute;
+	pointer-events: none;
+	bottom: 100px;
+	opacity: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	z-index:24;
+}
+.tip:before,
+.tip:after{
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0,0,0,0.1);
+}
+.tip:after{
+	bottom: -14px;
+	margin-left: -10px;
+	border-top: 10px solid #fff;
+}
+.tip:hover span{
+	opacity: 0.9;
+	bottom: 70px;
+}
+

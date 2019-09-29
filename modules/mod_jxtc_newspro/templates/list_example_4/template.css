@@ -1,0 +1,32 @@
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+.dnplist4 .span11 {
+	padding-left: 12px;
+}
+.dnplist4_index {
+	padding: 10px 10px 7px;
+	background: #333;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 0 12px !important;
+}
+.dnplist4 h3 {
+	margin: 8px 0 12px !important;
+}
+.npsidebarright a {
+	color: #333;
+}

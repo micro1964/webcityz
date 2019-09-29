@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+  <name>JoomlaXTC YouTube plugin</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2016-11-10</creationDate>
+	<copyright>Copyright (C) 2016 Monev Software LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.0.0</version>
+  <description>JoomlaXTC YouTube plugin v1.0.0 - Visit www.joomlaxtc.com documents area for help.</description>
+  <files>
+    <filename plugin="jxtcyoutube">jxtcyoutube.php</filename>
+    <filename>COPYRIGHT.txt</filename>
+    <filename>jxtcyoutube.css</filename>
+    <filename>jxtcyoutube.js</filename>
+    <filename>LICENSE.txt</filename>
+  </files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="spacer" label="Plugin Tag Syntax: {youtube videoid}" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,230 @@
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+/* Wall Title Style Settings */
+h3.newsitemtitle, h3.newsitemtitlemed, h3.newsitemtitlesm {
+	line-height: 100% !important;
+	text-align: left !important;
+	padding: 0 0 8px !important;
+	border: none !important;
+}
+/* Wall Title Font & Style Settings */
+h3.newsitemtitlemed {
+	font-size: 24px !important;
+	margin-bottom: 0 !important;
+	color: #fff;
+}
+/* Wall Table Settings for Rows & Columns */
+.ns_more {
+	vertical-align: top;
+	cursor: pointer
+}
+.ns_more .newspromore {
+	padding: 18px;
+}
+.ns_more .newspromore {
+	padding: 18px;
+}
+.ns_more .newspromore {
+	padding: 18px;
+}
+.newshover:hover .newspromore {
+	border-bottom: none !important;
+}
+.ns_more:hover .newspromore {
+	padding: 18px 18px 17px;
+}
+.wallview {
+	overflow: visible !important;
+}
+/* Wall Content Settings */
+.newsitemintro {
+	padding-bottom: 0;
+}
+a.newsitemspecs img {
+	height: 15px;
+	width: 15px;
+}
+.newsitemcattitle {
+	font-size: 16px;
+	float: left;
+}
+.newspromore {
+	padding: 6px;
+}
+.newsproinner {
+	border: 1px solid #555;
+	padding: 16px;
+	background: #fff;
+}
+/* ----------------------------------------------*/
+/* C 09 - CSS3 Animations
+/* ----------------------------------------------*/
+.animated {
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-duration: .5s;
+	-webkit-animation-timing-function: ease;
+	-moz-animation-duration: .5s;
+	-moz-animation-timing-function: ease;
+	-ms-animation-duration: .5s;
+	-ms-animation-timing-function: ease;
+	-o-animation-duration: .5s;
+	-o-animation-timing-function: ease;
+	animation-duration: .5s;
+	animation-timing-function: ease;
+	cursor: pointer
+}
+.pulse:hover {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-ms-animation-name: pulse;
+	-o-animation-name: pulse;
+	animation-name: pulse;
+	box-shadow: 0 0 15px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.75);
+	-o-box-shadow: 0 0 15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.75);
+	border: 0 !important;
+}
+ @-webkit-keyframes pulse {
+0% {
+ -webkit-transform: scale(1);
+}
+ 100% {
+ -webkit-transform: scale(1.6);
+}
+}
+ @-moz-keyframes pulse {
+0% {
+ -moz-transform: scale(1.0);
+}
+ 100% {
+ -moz-transform: scale(1.6);
+}
+}
+ @-ms-keyframes pulse {
+0% {
+ -ms-transform: scale(1);
+}
+ 100% {
+ -ms-transform: scale(1.6);
+}
+}
+ @-o-keyframes pulse {
+0% {
+ -o-transform: scale(1);
+}
+ 100% {
+ -o-transform: scale(1.6);
+}
+}
+ @keyframes pulse {
+0% {
+ transform: scale(1);
+}
+ 100% {
+ transform: scale(1.6);
+}
+}
+.exp {
+	-webkit-transition: background-position .3s ease;
+	-moz-transition: background-position .3s ease;
+	-o-transition: background-position .3s ease;
+	transition: background-position .3s ease;
+	min-height: 120px;
+	margin: 0 16px;
+	cursor: pointer
+}
+.exp:hover {
+	background-position: 50% 70% !important;
+}
+
+@media(max-width:920px) {
+.animated {
+	-webkit-animation-fill-mode: none;
+	-moz-animation-fill-mode: none;
+	-ms-animation-fill-mode: none;
+	-o-animation-fill-mode: none;
+	animation-fill-mode: none;
+	-webkit-animation-duration: none;
+	-webkit-animation-timing-function: none;
+	-moz-animation-duration: none;
+	-moz-animation-timing-function: none;
+	-ms-animation-duration: none;
+	-ms-animation-timing-function: none;
+	-o-animation-duration: none;
+	-o-animation-timing-function: none;
+	animation-duration: none;
+	animation-timing-function: none;
+}
+.pulse:hover {
+	-webkit-animation-name: none;
+	-moz-animation-name: none;
+	-ms-animation-name: none;
+	-o-animation-name: none;
+	animation-name: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-moz-box-shadow: none;
+}
+.exp {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	min-height: 120px;
+}
+.exp:hover {
+	background-position: 50% 70% !important;
+}
+}
+
+@media(max-width:880px) {
+.ns_more .newspromore {
+	min-height: 140px !important;
+}
+}
+
+@media (max-width: 767px) {
+.ns_more .newspromore {
+	min-height: 170px !important;
+}
+.exp {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	min-height: 320px;
+}
+}
+
+@media (max-width: 620px) {
+.newspromore {
+	min-height: none;
+}
+}
+
+@media (max-width: 566px) {
+.ns_more .newspromore {
+	min-height: 160px !important;
+}
+}
+ @media(max-width:480px) {

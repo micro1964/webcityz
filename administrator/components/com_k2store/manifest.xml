@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+  <name>com_k2store</name>
+  <author>Ramesh Elamathi</author>
+  <creationDate>June 2013</creationDate>
+  <copyright>Copyright (c) 2013 - 2018 Weblogicx India Private Ltd. All rights reserved.</copyright>
+  <authorEmail>support@k2store.org</authorEmail>
+  <authorUrl>http://k2store.org</authorUrl>
+  <version>3.5.3</version>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <description><![CDATA[
+  	  <h3>K2 Store V 3.5</h3>
+      The Plugin extends the K2 CCK with an <b>e-commerce feature.</b> The Features include:
+      <ul>
+      <li>Fully functional shopping cart </li>
+      <li>Convert K2 item into products</li>
+      <li>Product attributes, coupons, discount options</li>
+      <li>Orders, Shipping and Payment options </li>
+      <li>Paypal and Authorize.net payment gateways </li>
+      <li>Guest checkout </li>
+      <li>Geozone based tax</li>
+      <li>Simple, Quick and Unobstrusive</li>
+      <li>and a lot more</li>
+      <li>read more at <a href="http://k2store.org">K2 Store website</a> </li>
+      </ul>
+     ]]>
+	</description>
+    	<scriptfile>script.k2store.php</scriptfile>
+    	
+    	
+	<updateservers>
+		<server type="extension" priority="1" name="K2Store Updates"><![CDATA[http://k2store.org/update.xml]]></server>
+	</updateservers>
+
+    <install>
+    <sql>
+      <file driver="mysql" charset="utf8">install.k2store.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">uninstall.k2store.sql</file>
+    </sql>
+  </uninstall>
+  
+  <update> <!-- Runs on update; New in 2.5 -->
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+      
+      
+  <files folder="components/com_k2store">
+    <folder>controllers</folder>
+    <folder>views</folder>
+    <folder>models</folder>
+    <folder>helpers</folder>
+    <filename>k2store.php</filename>
+    <filename>controller.php</filename>
+     <filename>router.php</filename>
+    <filename>index.html</filename>   
+  </files>
+  <media destination="k2store" folder="media/k2store">
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>images</folder>		
+	</media>
+  <languages folder="language/en-GB">
+	  <language tag="en-GB">en-GB.com_k2store.ini</language>	
+  </languages>
+  
+  <administration>
+  
+  <menu img="../media/k2store/images/k2store-icon.png" view="cpanel">com_k2store</menu>
+   <files folder="administrator/components/com_k2store">
+	  <folder>backup</folder>
+	  <folder>tables</folder>
+	  <folder>controllers</folder>
+	  <folder>models</folder>
+	  <folder>views</folder>
+	  <folder>liveupdate</folder>
+	  <folder>library</folder>	
+	  <folder>helpers</folder>
+	  <folder>elements</folder>
+	  <folder>sql</folder>
+	  <filename>k2store.php</filename>
+	   <filename>controller.php</filename>
+	   <filename>version.php</filename>
+	  <filename>index.html</filename>
+	   <filename>config.xml</filename>
+	   <filename>access.xml</filename>
+      <filename>install.k2store.sql</filename>
+      <filename>uninstall.k2store.sql</filename>
+     </files> 
+     
+   <languages folder="administrator/language/en-GB">
+      <language tag="en-GB">en-GB.com_k2store.ini</language>
+      <language tag="en-GB">en-GB.com_k2store.menu.ini</language>
+      <language tag="en-GB">en-GB.com_k2store.sys.ini</language>      
+      <language tag="en-GB">en-GB.plg_k2store_payment_offline.ini</language>
+      <language tag="en-GB">en-GB.plg_k2store_payment_offline.sys.ini</language>            
+   </languages>
+    </administration>
+
+  <modules>
+    <module module="mod_k2store_cart"/>    
+  </modules>
+  
+  <plugins>
+    <plugin plugin="k2store" group="system" />
+    <plugin plugin="k2store" group="k2" />
+    <plugin plugin="payment_offline" group="k2store" />    
+  </plugins>   
+     
+</extension>

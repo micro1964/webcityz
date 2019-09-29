@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<fieldset name="COM_K2STORE_BASIC_OPTIONS" label="K2STORE_BASIC_OPTIONS">
+
+		<field name="k2store_enable_css" type="radio" default="1" class="btn-group"
+			label="k2store_conf_k2store_enable_css_label" description="k2store_conf_k2store_enable_css_desc">
+			<option value="0">K2STORE_NO</option>
+			<option value="1">K2STORE_YES</option>
+		</field>
+		
+
+		 <field name="load_jquery" type="radio" default="1"
+            class="btn-group" label="k2store_conf_load_jquery_label"
+            description="k2store_conf_load_jquery_desc">
+            <option value="0">K2STORE_NO</option>
+            <option value="1">K2STORE_YES</option>
+        </field>
+		
+		<field name="show_quicktips" type="radio" default="1" class="btn-group"
+			label="k2store_conf_show_quicktips_label" 
+			description="k2store_conf_show_quicktips_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+
+		<field name="isregister" type="list" default="0"
+			label="k2store_conf_isregister_label" 
+			description="k2store_conf_isregister_desc">
+			<option value="1">K2STORE_REGISTERED</option>
+			<option value="0">K2STORE_PUBLIC</option>
+		</field>
+
+		<field name="usesecure" type="radio" default="0" class="btn-group"
+			label="k2store_conf_usesecure_label" 
+			description="k2store_conf_usesecure_desc">
+			<option value="0">K2STORE_NO</option>
+			<option value="1">K2STORE_YES</option>
+		</field>
+
+			<field name="backupfolderpath" type="text" default="" size="40"
+			label="k2store_conf_backupfolderpath_label" 
+			description="k2store_conf_backupfolderpath_desc" />
+	</fieldset>
+
+	<fieldset name="COM_K2STORE_CART_SETTINGS" label="K2STORE_CART_SETTINGS">
+
+		<field name="show_thumb_cart" type="list" default="intro"
+			label="k2store_conf_show_thumb_cart_label" 
+			description="k2store_conf_show_thumb_cart_desc">
+			<option value="within_text">k2store_conf_image_within_article</option>
+			<option value="intro">K2STORE_CONF_ITEM_IMAGE</option>
+			<option value="0">k2store_conf_never_show_thumbnail</option>
+		</field>
+		
+		<field name="cartimage_size" type="radio" default="Small" class="btn-group"
+			label="k2store_conf_cartimage_size_label" 
+			description="k2store_conf_cartimage_size_desc">
+			<option value="Small">K2STORE_CONF_CARTIMAGE_SIZE_SMALL</option>
+			<option value="Medium">K2STORE_CONF_CARTIMAGE_SIZE_MEDIUM</option>
+			<option value="Large">K2STORE_CONF_CARTIMAGE_SIZE_LARGE</option>
+		</field>
+		
+		<field name="show_thumb_invoice" type="radio" default="0" class="btn-group"
+			label="k2store_conf_show_thumb_invoice_label" 
+			description="k2store_conf_show_thumb_invoice_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+		
+		<field name="addtocart_placement" type="radio" default="default" class="btn-group"
+			label="k2store_conf_addtocart_placement_label" 
+			description="k2store_conf_addtocart_placement_desc">
+			<option value="default">K2STORE_CONF_OPTION_ADDTOCART_DEFAULT</option>
+			<option value="tag">K2STORE_CONF_OPTION_ADDTOCART_TAG</option>
+			<option value="both">K2STORE_CONF_OPTION_ADDTOCART_BOTH</option>
+		</field>
+		
+		<field name="config_tax_default" type="radio" default="billing"
+			class="btn-group" label="k2store_conf_config_tax_default_label"
+			description="k2store_conf_config_tax_default_desc">
+			<option value="billing">K2STORE_CONF_CONFIG_TAX_OPTION_BILLING_ADDRESS</option>
+			<option value="shipping">K2STORE_CONF_CONFIG_TAX_OPTION_SHIPPING_ADDRESS</option>
+		</field>
+		
+		<field name="show_tax_total" type="radio" default="0" class="btn-group"
+			label="k2store_conf_show_tax_total_label" 
+			description="k2store_conf_show_tax_total_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+		
+		<field name="show_qty_field" type="radio" default="1" class="btn-group"
+			label="k2store_conf_show_qty_field_label" 
+			description="k2store_conf_show_qty_field_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+		
+		<field name="show_price_field" type="radio" default="1" class="btn-group"
+			label="k2store_conf_show_price_field_label" 
+			description="k2store_conf_show_price_field_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+		
+
+		<field name="price_display_options" type="list" default="1"
+			label="k2store_conf_price_display_options_label" 
+			description="k2store_conf_price_display_options_desc">
+			<option value="1">K2STORE_CONFIG_PRICE_ONLY</option>
+			<option value="2">K2STORE_CONFIG_PRICE_PLUS_TAX</option>
+			<option value="3">K2STORE_CONFIG_PRICE_AND_TAX_SEPARATE</option>
+		</field>
+
+		<field name="show_shipping_address" type="radio" default="1" class="btn-group"
+			label="k2store_conf_show_shipping_address_label" 
+			description="k2store_conf_show_shipping_address_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+		
+		
+		<field name="show_login_form" type="radio" default="1" class="btn-group"
+			label="k2store_conf_show_login_form_label" 
+			description="k2store_conf_show_login_form_desc">
+			<option value="0">K2STORE_NO</option>
+			<option value="1">K2STORE_YES</option>
+		</field>
+		
+		<field name="allow_registration" type="radio" default="1" class="btn-group"
+			label="k2store_conf_allow_registration_label" 
+			description="k2store_conf_allow_registration_desc">
+			<option value="0">K2STORE_NO</option>
+			<option value="1">K2STORE_YES</option>
+		</field>		
+		
+		<field name="allow_guest_checkout" type="radio" default="0" class="btn-group"
+			label="k2store_conf_allow_guest_checkout_label" 
+			description="k2store_conf_allow_guest_checkout_desc">
+			<option value="0">K2STORE_NO</option>
+			<option value="1">K2STORE_YES</option>
+		</field>
+		
+		<field name="allow_attachment_downloads" type="radio" default="0" class="btn-group"
+			label="k2store_conf_allow_attachment_downloads_label" 
+			description="k2store_allow_attachment_downloads_desc">
+			<option value="0">K2STORE_NO</option>
+			<option value="1">K2STORE_YES</option>
+		</field>
+		
+		<field name="popup_style" type="radio" default="1" class="btn-group"
+			label="k2store_conf_popup_style_label" description="k2store_conf_popup_style_desc">
+			<option value="1">K2STORE_CONF_OPTION_SMALL</option>
+			<option value="3">K2STORE_CONF_OPTION_REDIRECT</option>
+		</field>
+		
+	</fieldset>
+	
+
+	<fieldset name="COM_K2STORE_ADRESS_FIELDS" label="K2STORE_ADDRESS_FIELDS">
+
+		<field name="billing" type="spacer" class="spacer"
+			label="k2store_conf_billing_label" />
+
+		<field name="bill_company_name" type="radio" default="2" class="btn-group" 
+				label="k2store_conf_bill_company_name_label"
+			description="k2store_conf_bill_company_name_desc">
+			<option value="1">k2store_conf_required</option>
+			<option value="2">k2store_conf_optional</option>
+			<option value="3">k2store_conf_disable</option>
+		</field>
+		<field name="bill_tax_number" type="radio" default="2" class="btn-group" 
+				label="k2store_conf_bill_tax_number_label"
+			description="k2store_conf_bill_tax_number_desc">
+			<option value="1">k2store_conf_required</option>
+			<option value="2">k2store_conf_optional</option>
+			<option value="3">k2store_conf_disable</option>
+		</field>
+
+	<field name="shipping" type="spacer" class="spacer"
+			label="k2store_conf_shipping_label" />
+			
+		<field name="ship_company_name" type="radio" default="2"  class="btn-group"
+		label="k2store_conf_ship_company_name_label"
+			description="k2store_conf_ship_company_name_desc">
+			<option value="1">k2store_conf_required</option>
+			<option value="2">k2store_conf_optional</option>
+			<option value="3">k2store_conf_disable</option>
+		</field>
+
+	</fieldset>
+
+	<fieldset name="COM_K2STORE_DISCOUNT_SETTINGS" label="K2STORE_DISCOUNT_SETTINGS">
+	
+		<field name="global_minordervalue" type="text" size="20"
+			default="" label="k2store_conf_global_minordervalue_label"
+			description="k2store_conf_global_minordervalue_desc" />
+
+	</fieldset>
+	<fieldset name="COM_K2STORE_NUMERIC_SETTINGS" label="K2STORE_NUMERIC_SETTINGS">
+
+		<field name="date_format" type="text" size="40" default="Y-m-d H:i:s"
+			label="k2store_conf_date_format_label" 
+			description="k2store_conf_date_format_desc" />
+			
+		<field name="currency" type="text" size="40" default="$"
+			label="k2store_conf_currency_label" 
+			description="k2store_conf_currency_desc" />
+			
+		<field name="currency_position" type="radio" size="2" default="pre" class="btn-group"
+			label="k2store_conf_currency_position_label" 
+			description="k2store_conf_currency_position_desc">
+			<option value="pre">k2store_conf_currency_pos_front</option>
+			<option value="post">k2store_conf_currency_pos_end</option>
+		</field>
+
+		<field name="currency_code" type="text" size="40" default="USD"
+			label="k2store_conf_currency_code_label" 
+			description="k2store_conf_currency_code_desc" />
+			
+		<field name="currency_num_decimals" type="text" size="40"
+			default="2" label="k2store_conf_currency_num_decimals_label" 
+			description="k2store_conf_currency_num_decimals_desc" />
+			
+		<field name="currency_decimal" type="text" size="40" default="."
+			label="k2store_conf_currency_decimal_label" 
+			description="k2store_conf_currency_decimal_desc" />
+			
+		<field name="currency_thousands" type="text" size="20" default=","
+			label="k2store_conf_currency_thousands_label" 
+			description="k2store_conf_currency_thousands_desc" />
+
+	</fieldset>
+	<fieldset name="COM_K2STORE_SHOP_SETTINGS" label="K2STORE_SHOP_SETTINGS">
+
+		<field name="emails_defaultemail" type="text" size="40"
+			default="yourfrom@email.com" 
+			label="k2store_conf_emails_defaultemail_label"
+			description="k2store_conf_emails_defaultemail_desc" />
+			
+		<field name="emails_defaultname" type="text" size="40"
+			default="Your From Name" 
+			label="k2store_conf_emails_defaultname_label" 
+			description="k2store_conf_emails_defaultname_desc" />
+
+		<field name="admin_email" type="text" size="40" default="youradmin@email.com"
+			label="k2store_conf_admin_email_label" 
+			description="k2store_conf_admin_email_desc" />
+
+
+		<field name="shopname" type="text" size="40" default="My Shop"
+			label="k2store_conf_shopname_label" 
+			description="k2store_conf_shopname_desc" />
+
+		<field name="signature" type="textarea" rows="5" cols="40"
+			default="Administrator, My Shop" 
+			label="k2store_conf_signature_label"
+			description="k2store_conf_signature_desc" />
+
+	</fieldset>
+	
+	<fieldset name="updates"
+		label="COM_K2STORE_CONFIG_UPDATES_LABEL"
+		description="COM_K2STORE_CONFIG_UPDATES_DESC">
+			
+		<field name="minstability" type="list" default="stable" label="COM_K2STORE_CONFIG_UPDATES_MINSTABILITY_LABEL" description="COM_K2STORE_CONFIG_UPDATES_MINSTABILITY_DESC">
+			<option value="alpha">COM_K2STORE_CONFIG_UPDATES_STABILITY_ALPHA</option>
+			<option value="beta">COM_K2STORE_CONFIG_UPDATES_STABILITY_BETA</option>
+			<option value="rc">COM_K2STORE_CONFIG_UPDATES_STABILITY_RC</option>
+			<option value="stable">COM_K2STORE_CONFIG_UPDATES_STABILITY_STABLE</option>
+		</field>
+		<field name="liveupdate" type="hidden" default="" label="" description="" />
+	</fieldset>
+	
+	
+
+	<fieldset name="COM_K2STORE_MISC_SETTINGS" label="K2STORE_MISC_SETTINGS">
+
+		<field name="show_terms" type="radio" default="1" class="btn-group"
+			label="k2store_conf_show_terms_label" 
+			description="k2store_conf_show_terms_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+		
+		<field name="terms_display_type" type="radio" default="link" class="btn-group" 
+			label="k2store_conf_terms_display_type_label" 
+			description="k2store_conf_terms_display_type_desc">
+			<option value="link">K2STORE_CONF_TERMS_DISPLAY_OPTION_LINK</option>
+			<option value="checkbox">K2STORE_CONF_TERMS_DISPLAY_OPTION_CHECKBOX</option>
+		</field>
+		
+		<field name="show_title" type="radio" default="1" class="btn-group"
+			label="k2store_conf_show_title_label" 
+			description="k2store_conf_show_title_desc">
+			<option value="1">K2STORE_YES</option>
+			<option value="0">K2STORE_NO</option>
+		</field>
+		
+		<field name="termsid" type="text" size="20" default=""
+			label="k2store_conf_termsid_label"
+			description="k2store_conf_termsid_desc" />
+
+	</fieldset>
+	
+<fieldset name="permissions"
+		description="JCONFIG_PERMISSIONS_DESC"
+		label="JCONFIG_PERMISSIONS_LABEL"
+	>
+
+		<field name="rules" type="rules"
+			component="com_k2store"
+			filter="rules"
+			validate="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			section="component" />
+	</fieldset>
+	
+	
+</config>

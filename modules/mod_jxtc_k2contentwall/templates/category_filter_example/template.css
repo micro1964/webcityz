@@ -1,0 +1,117 @@
+
+.filtrocontainer{
+
+}
+.filtrocontainer label{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding:10px;
+	cursor: pointer;
+	color: #333333;
+	float:left;
+	margin-right:12px;
+	text-transform:uppercase;
+	font-size:12px;
+	
+}
+.filtrocontainer label:hover{
+	background:#333333;
+	color:#FFFFFF;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.filtrocontainer label.filtro_lable_All{
+	
+}
+.filtrocontainer label.ff-label-type-3{
+	border-radius: 0px 3px 3px 0px;
+}
+.filtrocontainer input.filtro_all_selector:checked ~ label.filtro_lable_All,
+.filtrocontainer input.filtro_selector_1:checked ~ label.filtro_label_1,
+.filtrocontainer input.filtro_selector_2:checked ~ label.filtro_label_2,
+.filtrocontainer input.filtro_selector_3:checked ~ label.filtro_label_3,
+.filtrocontainer input.filtro_selector_4:checked ~ label.filtro_label_4{
+	background:#333333;
+	color:#FFFFFF;
+}
+.filtrocontainer input{
+	display: none;
+}
+.portfolio{
+	position: relative;
+	margin: 0px auto;
+	padding: 20px 0 0;
+}
+.portfolio h3 {color:#fff;font-weight:bold;}
+.portfolio p {font-size:11px!important;margin:0!important;padding:0 10px;}
+.portfolio a {font-size:11px!important;color:#fff;border:1px solid #fff;padding:8px 12px;}
+.portfolio a:hover {color:#fff;}
+.portfolio li .overlay{
+	display: block;
+	background:#608EBD;
+	height: 0px;
+	color: #fff;
+	width: 96.1%;
+	padding:2%;
+	overflow: hidden;
+	opacity: 0;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.portfolio li .overlay h3{ font-size:16px; font-weight:bold; margin-top:10px; margin-bottom:10px;}
+
+.portfolio li .overlay p{ margin-bottom:10px;}
+
+.portfolio li .overlay a{ text-transform:uppercase;}
+
+
+.portfolio li:hover .overlay{
+	height: 96%;
+	opacity: 1;
+}
+.portfolio li img{
+	display: block;
+	width:100%
+}
+
+.portfolio li{
+	cursor:pointer;
+	display: block;
+	position: relative;
+	margin-bottom:30px;
+	
+	-webkit-transition: opacity 0.6s ease-in-out;
+	-moz-transition: opacity 0.6s ease-in-out;
+	-o-transition: opacity 0.6s ease-in-out;
+	-ms-transition: opacity 0.6s ease-in-out;
+	transition: opacity 0.6s ease-in-out;
+}
+
+
+.filtrocontainer input.filtro_all_selector:checked ~ .portfolio li,
+.filtrocontainer input.filtro_selector_1:checked ~ .portfolio .portfolio_119,
+.filtrocontainer input.filtro_selector_2:checked ~ .portfolio .portfolio_120{
+	opacity: 1;
+}
+
+
+.filtrocontainer input.filtro_selector_1:checked ~ .portfolio li:not(.portfolio_119),
+.filtrocontainer input.filtro_selector_2:checked ~ .portfolio li:not(.portfolio_120){
+	opacity: 0.1;
+}
+
+.filtrocontainer input.filtro_selector_1:checked ~ .portfolio li:not(.portfolio_119) span,
+.filtrocontainer input.filtro_selector_2:checked ~ .portfolio li:not(.portfolio_120) span{
+	display:none;
+}

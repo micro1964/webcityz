@@ -1,0 +1,104 @@
+/* Sample CSS file */
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 10px 2px 10px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px 0 2px 10px ;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+
+.fivehundredpx {color:#fff;}
+.aboutme  {color:#fff;}
+.amazon  {color:#fff;}
+.aol  {color:#fff;}
+.appstore  {color:#fff;}
+.apple  {color:#fff;}
+.bebo  {color:#fff;}
+.behance  {color:#fff;}
+.bing  {color:#fff;}
+.blip  {color:#fff;}
+.blogger  {color:#fff;}
+.coroflot  {color:#fff;}
+.daytum  {color:#fff;}
+.delicious  {color:#fff;}
+.designbump  {color:#fff;}
+.designfloat  {color:#fff;}
+.deviantart  {color:#fff;}
+.digg  {color:#fff;}
+.dribble  {color:#fff;}
+.drupal  {color:#fff;}
+.email  {color:#fff;} 
+.ebay  {color:#fff;}
+.etsy  {color:#fff;}
+.facebook  {color:#fff;}
+.feedburner  {color:#fff;}
+.flickr  {color:#fff;}
+.foodspotting  {color:#fff;}
+.forrst  {color:#fff;}
+.foursquare  {color:#fff;}
+.friendsfeed  {color:#fff;}
+.friendstar  {color:#fff;}
+.gdgt {color:#fff;}
+.github  {color:#fff;}
+.googleplus  {color:#fff;}
+.googletalk  {color:#fff;}
+.grooveshark  {color:#fff;}
+.hyves  {color:#fff;}
+.icondock  {color:#fff;}
+.icq  {color:#fff;}
+.identica  {color:#fff;}
+.imessage  {color:#fff;}
+.instagram  {color:#fff;}
+.itunes  {color:#fff;}
+.lastfm  {color:#fff;}
+.linkedin  {color:#fff;}
+.meetup  {color:#fff;}
+.metacafe  {color:#fff;}
+.mrwong  {color:#fff;}
+.msn {color:#fff;}
+.myspace  {color:#fff;}
+.newsvine  {color:#fff;}
+.paypal  {color:#fff;}
+.photobucket  {color:#fff;}
+.picasa  {color:#fff;}
+.pinterest  {color:#fff;}
+.podcast  {color:#fff;}
+.qik  {color:#fff;}
+.quora  {color:#fff;}
+.reddit  {color:#fff;}
+.retweet  {color:#fff;}
+.rss  {color:#fff;}
+.scribd  {color:#fff;}
+.sharethis  {color:#fff;}
+.skype  {color:#fff;}
+.slashdot  {color:#fff;}
+.slideshare  {color:#fff;}
+.smugmug  {color:#fff;}
+.soundcloud  {color:#fff;}
+.spotify  {color:#fff;}
+.squidoo  {color:#fff;}
+.stackoverflow  {color:#fff;}
+.stumbleupon  {color:#fff;}
+.technorati  {color:#fff;}
+.tumblr  {color:#fff;}
+.twitterbird  {color:#fff;}
+.twitter  {color:#fff;}
+.viddler  {color:#fff;}
+.vimeo  {color:#fff;}
+.virb  {color:#fff;}
+.www  {color:#fff;}
+.wikipedia  {color:#fff;}
+.windows  {color:#fff;}
+.wordpress  {color:#fff;}
+.xing  {color:#fff;}
+.yahoobuzz  {color:#fff;}
+.yahoo  {color:#fff;}
+.yelp  {color:#fff;}
+.youtube  {color:#fff;}

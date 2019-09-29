@@ -1,0 +1,114 @@
+.legend {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 2px 5px 2px 2px;
+    border-bottom: 1px solid #333;
+}
+
+.tag {
+    padding: 2px;
+    font-size: 10px;
+    font-family: Arial;
+    color: #333;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #333;
+}
+
+/* Main Area Wrap */
+.dnpgrid4mainwrap {
+    max-width: 100% !important;
+}
+
+/* Item Wrap */
+.dnpgrid4wrap {
+    padding: 24px;
+    margin-bottom: 6%;
+    margin-right: 24px;
+    background: #e6e6e6;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    max-width: 100%;
+}
+
+.aboutmainwrap .lastrow > div > div {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.dnpgrid4wrap img {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.dnpgrid4wrap h2 {
+    padding: 0;
+    font-size: 32px !important;
+}
+
+.dnpgrid4wrap p {
+    margin-top: 10px;
+}
+
+.dnpgrid4author {
+    font-size: 12px;
+}
+
+.dnpgrid4wrap a.dnpgrid4_rmore1 {
+    display: block !important;
+}
+
+/* Read More Button */
+.dnpgrid4_rmore1 a {
+    font-size: 18px;
+    padding: 7px 0 0 2px;
+    margin: 3px 0 0 12px;
+    background: rgba(0,0,0,0.3);
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.dnpgrid4_rmore1 {
+    background: #6ea6e9;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center !important;
+    font-size: 1.8em;
+    padding: 14px 30px 16px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none !important;
+    color: #fff !important;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background .6s;
+    -ms-transition: background .6s;
+    transition: background .6s;
+}
+
+.dnpgrid4_rmore1:hover,.dnpgrid4_rmore1:hover input {
+    background: #8fc2ff !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+@media (max-width: 786px) {
+.wallfloat {
+    width: 100% !important;
+}
+
+.wallfloat.col-2,.wallfloat.col-4,.wallfloat.col-6,.wallfloat.col-8,.wallfloat.col-10 {
+    clear: right !important;
+    width: 100% !important;
+}
+
+.dnpgrid4wrap {
+    margin-right: 0;
+}
+}

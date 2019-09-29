@@ -1,0 +1,252 @@
+/* Sample CSS file */
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 10px 2px 10px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px 0 2px 10px ;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+
+.fivehundredpx {}
+.aboutme {}
+.amazon {}
+.aol {}
+.appstore {}
+.apple {}
+.bebo {}
+.behance {}
+.bing {}
+.blip {}
+.blogger {}
+.coroflot {}
+.daytum {}
+.delicious {}
+.designbump {}
+.designfloat {}
+.deviantart {}
+.digg {}
+.dribble {}
+.drupal {}
+.email {} 
+.ebay {}
+.etsy {}
+.facebook {}
+.feedburner {}
+.flickr {}
+.foodspotting {}
+.forrst {}
+.foursquare {}
+.friendsfeed {}
+.friendstar {}
+.gdgt{}
+.github {}
+.googleplus {}
+.googletalk {}
+.grooveshark {}
+.hyves {}
+.icondock {}
+.icq {}
+.identica {}
+.imessage {}
+.instagram {}
+.itunes {}
+.lastfm {}
+.linkedin {}
+.meetup {}
+.metacafe {}
+.mrwong {}
+.msn{}
+.myspace {}
+.newsvine {}
+.paypal {}
+.photobucket {}
+.picasa {}
+.pinterest {}
+.podcast {}
+.qik {}
+.quora {}
+.reddit {}
+.retweet {}
+.rss {}
+.scribd {}
+.sharethis {}
+.skype {}
+.slashdot {}
+.slideshare {}
+.smugmug {}
+.soundcloud {}
+.spotify {}
+.squidoo {}
+.stackoverflow {}
+.stumbleupon {}
+.technorati {}
+.tumblr {}
+.twitterbird {}
+.twitter {}
+.viddler {}
+.vimeo {}
+.virb {}
+.www {}
+.wikipedia {}
+.windows {}
+.wordpress {}
+.xing {}
+.yahoobuzz {}
+.yahoo {}
+.yelp {}
+.youtube {}
+
+
+.wrapper-dropdown-jxtc:focus .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+#main ul
+{
+        list-style-position:outside;
+        list-style-type:none;
+        padding:0px!important;
+        margin:0px!important;
+}
+
+
+.wrapper-dropdown-jxtc {
+    /* Size and position */
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+
+    /* Styles */
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+
+    /* Font settings */
+    font-weight: bold;
+    color: #8AA8BD;
+}
+
+.wrapper-dropdown-jxtc:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -jxtcpx;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #8aa8bd transparent;
+}
+
+.wrapper-dropdown-jxtc .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 140%;
+    left: 0;
+    right: 0;
+
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+
+    /* Hiding */
+    opacity: 0;
+   
+}
+
+.wrapper-dropdown-jxtc .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+
+.wrapper-dropdown-jxtc .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+.wrapper-dropdown-jxtc .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #8aa8bd;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown-jxtc .dropdown li  {
+    float: right;
+    color: inherit;
+	list-style:none;
+}
+
+.wrapper-dropdown-jxtc .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown-jxtc .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+/* Active state */
+
+.wrapper-dropdown-jxtc.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* No CSS3 support */
+
+.no-opacity       .wrapper-dropdown-jxtc .dropdown,
+.no-pointerevents .wrapper-dropdown-jxtc .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity       .wrapper-dropdown-jxtc.active .dropdown,
+.no-pointerevents .wrapper-dropdown-jxtc.active .dropdown {
+    display: block;
+}

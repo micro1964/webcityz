@@ -1,0 +1,200 @@
+/*
+Mozaix template for Joomla!
+Commercial Software
+Copyright 2013 joomlaxtc.com
+All Rights Reserved
+www.joomlaxtc.com
+*/
+
+/* ----------------------------------------------*/
+/* G 00 - Column Classes Responsive
+/* ----------------------------------------------*/
+.gridfirst{margin-left:0!important;clear:left;}
+.gridlast{clear:right;}
+/* ----------------------------------------------*/
+/* G 01 - Basic Structure 
+/* ----------------------------------------------*/
+.xtc-bodygutter{padding:0 1.5%;}
+.xtc-wrapper {max-width:<?php echo $params->wrapperwidth;?>px;}
+.xtc-wrapperpad {max-width:<?php echo $params->wrapperwidth + (($params->wrappergutter)*2);?>px;margin:0 auto;}
+/* ----Header---------------------------*/
+#headerwrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#headerwrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->hwleft_right_pad) *2);?>px;padding-top:<?php echo $params->hwtop_bottom_pad;?>px!important;padding-bottom:<?php echo $params->hwtop_bottom_pad;?>px!important;padding-left:<?php echo $params->hwleft_right_pad;?>px!important;padding-right:<?php echo $params->hwleft_right_pad;?>px!important;margin:0 auto;}
+#header.row-fluid{width:auto;}
+#headerwrap{ position:relative;}
+/* ----Sticky Header ----------------------*/
+body.sticky{margin-top:130px;}
+body.innerpage.sticky{margin-top:130px;}
+body.nosticky #headerwrap{z-index: 9999999;}
+body.sticky #headerwrap {position:fixed;top: 0;width: 97.1%;z-index: 9999999;/*-webkit-transform: translate3d(0, 0, 0);*/}
+body.sticky #region1wrap {}
+/* ----Menu ----------------------*/
+#menu .menu ul .xmenu{line-height:11px!important;}
+#menuwrap.xtc-wrapper{max-width:<?php echo $params->wrapperwidth - (($params->hwleft_right_pad) *2);?>px;}
+/* ----Region1---------------------------*/
+#region1wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region1wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r1left_right_pad) *2);?>px;padding-top:<?php echo $params->r1top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r1top_bottom_pad;?>px!important;padding-left:<?php echo $params->r1left_right_pad;?>px!important;padding-right:<?php echo $params->r1left_right_pad;?>px!important; margin:0 auto; }
+#region1.row-fluid{width:auto;}
+/* ----Region2---------------------------*/
+#region2wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region2wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r2left_right_pad) *2);?>px;padding-top:<?php echo $params->r2top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r2top_bottom_pad;?>px!important;padding-left:<?php echo $params->r2left_right_pad;?>px!important;padding-right:<?php echo $params->r2left_right_pad;?>px!important;margin:0 auto; }
+#region2.row-fluid{width:auto;}
+/* ----Region3---------------------------*/
+#region3wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region3wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth;?>px;padding-top:<?php echo $params->r3top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r3top_bottom_pad;?>px!important;padding-left:<?php echo $params->r3left_right_pad;?>px;padding-right:<?php echo $params->r3left_right_pad;?>px;margin:0 auto;}
+#component, #k2Container.itemView.nowrap,.item-pagemozaixblog.nowrap{padding:<?php echo $params->r3com_pad;?>px!important;}
+.nowrap #region3,.nowrap #region3wrap .xtc-wrapper {margin-top:<?php echo $params->r3com_pad;?>px!important;}
+#region3.row-fluid{width:auto;}
+.r3spacer {padding-bottom:0 !important;}
+.r3spacer_bottom {padding-bottom:0 !important;}
+/* ----Region4---------------------------*/
+#region4wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region4wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r4left_right_pad) *2);?>px;padding-top:<?php echo $params->r4top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r4top_bottom_pad;?>px!important;padding-left:<?php echo $params->r4left_right_pad;?>px!important;padding-right:<?php echo $params->r4left_right_pad;?>px!important;margin:0 auto;}
+#region4.row-fluid{width:auto;}
+/* ----Region5---------------------------*/
+#region5wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region5wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r5left_right_pad) *2);?>px;padding-top:<?php echo $params->r5top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r5top_bottom_pad;?>px!important;padding-left:<?php echo $params->r5left_right_pad;?>px!important;padding-right:<?php echo $params->r5left_right_pad;?>px!important;padding:<?php echo $params->r5top_bottom_pad;?>!important;margin:0 auto;}
+#region5.row-fluid{width:auto;}
+/* ----Region6---------------------------*/
+#region6wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region6wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r6left_right_pad) *2);?>px;padding-top:<?php echo $params->r6top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r6top_bottom_pad;?>px!important;padding-left:<?php echo $params->r6left_right_pad;?>px!important;padding-right:<?php echo $params->r6left_right_pad;?>px!important;padding:<?php echo $params->r6top_bottom_pad;?>!important;margin:0 auto;}
+#region6.row-fluid{width:auto;}
+/* ----Region7---------------------------*/
+#region7wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region7wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r7left_right_pad) *2);?>px;padding-top:<?php echo $params->r7top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r7top_bottom_pad;?>px!important;padding-left:<?php echo $params->r7left_right_pad;?>px!important;padding-right:<?php echo $params->r7left_right_pad;?>px!important;padding:<?php echo $params->r7top_bottom_pad;?>!important;margin:0 auto;}
+#region7.row-fluid{width:auto;}
+/* ----Region8---------------------------*/
+#region8wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region8wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r8left_right_pad) *2);?>px;padding-top:<?php echo $params->r8top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r8top_bottom_pad;?>px!important;padding-left:<?php echo $params->r8left_right_pad;?>px!important;padding-right:<?php echo $params->r8left_right_pad;?>px!important;margin:0 auto;}
+#region8.row-fluid{width:auto;}
+/* ----Region9---------------------------*/
+#region9wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#region9wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r9left_right_pad) *2);?>px;padding-top:<?php echo $params->r9top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r9top_bottom_pad;?>px!important;padding-left:<?php echo $params->r9left_right_pad;?>px!important;padding-right:<?php echo $params->r9left_right_pad;?>px!important;margin:0 auto;}
+#region9.row-fluid{width:auto;}
+/* ----Footer---------------------------*/
+#footerwrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
+#footerwrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->fwleft_right_pad) *2);?>px;padding-top:<?php echo $params->fwtop_bottom_pad;?>px!important;padding-bottom:<?php echo $params->fwtop_bottom_pad;?>px!important;padding-left:<?php echo $params->fwleft_right_pad;?>px!important;padding-right:<?php echo $params->fwleft_right_pad;?>px!important;margin:0 auto;}
+#footerpad.row-fluid{width:auto;}
+/* ----Region Padding---------------------------*/
+.xtc-spacer {margin-bottom:<?php echo $params->regionseparatorwidth;?>px;}
+.xtc-gutter {padding:<?php echo $params->wrappergutter;?>px;}
+.xtc-gutter2 {padding:45px <?php echo $params->wrappergutter;?>px 50px;}
+.xtc-gutter3 {padding:0 <?php echo $params->wrappergutter;?>px;}
+.r1spacer_top{padding:20px 0 0 0;}
+.r2spacer_top{padding:20px 0 0 0;}
+.r3spacer_top{padding:20px 0 0 0;}
+.r4spacer_top{padding:20px 0 0 0;}
+.r5spacer_top{padding:20px 0 0 0;}
+.r6spacer_top{padding:20px 0 0 0;}
+.r7spacer_top{padding:20px 0 0 0;}
+.r8spacer_top{padding:20px 0 0 0;}
+/* ----Module Padding---------------------------*/
+.firstarea .module, #left .firstarea .module, .firstarea #right .module,#region4_banner{margin-top:0px!important;}
+.center > div:first-child{padding-top:0;}
+/* Content Pages*/
+.row-fluid > .xtc-leading > div:first-child,.row-fluid > .xtc-leading > div:first-child+div,.row-fluid > .xtc-leading >div:first-child+div+div{margin-bottom:30px;}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{margin-bottom:12px;}
+.xtc-intro.row-fluid > div > div{margin-bottom:30px;display:block;}
+.blog-featured > .xtc-leading > div > div,.blog-featured > .row-fluid > .row-fluid > div{margin-bottom:30px;}
+.article_infos {margin:20px 0;font-size:12px;}
+.article_infos .btn-group.pull-right{margin:-5px 0 0 0;}
+/* ----------------------------------------------*/
+/* G 02 - Header,logo,menu,top
+/* ----------------------------------------------*/
+#headerglobal{width:100%;padding:0;position:fixed;top:0;}
+#header{position:relative;}
+#logo{float:left;}
+.logomobilewrap img {margin:4% 0 0; display: none!important;}
+#messagewrap{padding:10px 0;}
+/* ----------------------------------------------*/
+/* G 03 - Menu
+/* ----------------------------------------------*/
+#menuwrap,#menu2{float:right;}
+#menu2{margin-right:2px;}
+#menu > ul.menu{float:left;}
+#menu ul.menu > li:first-child > a,#menu ul.menu > li:first-child > a:hover,#menu ul.menu > li.current:first-child > a{}
+#menu ul.menu > li > a{}
+#menu ul.menu li.parent > ul{}
+.suckerfish ul.menu > li > ul,.dualfish ul.menu > li > ul,.dropline ul.menu > li > ul {top:<?php echo $params->ddspacer;?>px;}
+#menuright1,#menuright2,#menuright1 .module,#menuright2 .module {float:right;padding:0px!important;margin:0!important;}
+#menu > div:first-child{padding:16px 0 0 0;}
+.xtcmobilemenu{float:left;}
+a.mrightlogin {text-align:center;display:block;}
+a.mrightlogin i {display:block; margin:0 auto;}
+a.mrightlogin span {display:block; margin-top:7px;}
+/* Side Menu */
+ul.sidemenu{}
+ul.sidemenu li{line-height:280%;padding:0;border-top:1px solid #ccc;}
+ul.sidemenu li:first-child{border-top:none;}
+ul.menu.iconside li img {width:33px; height:33px;}
+/* Dual Menu */
+.dualcol{clear:both;overflow:hidden;}
+.dualcol li {float:left;width:50%;padding:0;text-align:left!important;font-size:0.9em;line-height:220%;}
+/* Menu Tools */
+.menutools,.menutools_search{display:none;}
+/* Icon Side Menu */
+.xtc-iconsidemob{display:none;}
+/* ----------------------------------------------*/
+/* G 04 - Content
+/* ----------------------------------------------*/
+body.frontpage #component{padding:30px 0 20px;}
+body.frontpage #region3wrap .xtc-wrapper {padding-bottom:0!important;}
+/* ----------------------------------------------*/
+/* G 05 - Footer
+/* ----------------------------------------------*/
+#footerwrap .module{margin:0;font-size:10px;text-align:center;}
+/* ----------------------------------------------*/
+/* G 06 - Module
+/* ----------------------------------------------*/
+.module{margin:<?php echo $params->modulepacerheight;?>px 0 0 0;}
+h3.moduletitle{padding:30px;margin-bottom:30px;}
+.nomargin .moduletitle {margin:0!important;}
+.module .nowrap {background:none !important;}
+.module .nopad,.modulecontent .nopad {padding:0!important;}
+/* ----------------------------------------------*/
+/* S 00 - Module Overrides,overrides for default suffix within specific areas of the regions
+/* ----------------------------------------------*/
+#topbanner .module:first-child,#top .module:first-child,#inset .module:first-child,#showcasegrid .module:first-child,#left .module:first-child,#right .module:first-child,#left1 .module:first-child,#right1 .module:first-child,#left2 .module:first-child,#right2 .module:first-child,#left3 .module:first-child,#right3 .module:first-child,#left4 .module:first-child,#right4 .module:first-child,#left5 .module:first-child,#right5 .module:first-child,#left6 .module:first-child,#right6 .module:first-child,#left7 .module:first-child,#right7 .module:first-child,#left8 .module:first-child,#right8 .module:first-child,#newsflash .module:first-child,
+#banner1 .module:first-child,#breadsearch .module:first-child,#banner .module:first-child,
+.singlearea .module,.firstarea .module,#region1 .module:first-child{margin:0;}
+#breadcrumbs .module{margin-top:0;}
+/* ----------------------------------------------*/
+/* T 01 MOBILE
+/* ----------------------------------------------*/
+body.mobile #headerwrap{}
+body.mobile .sticky{margin-top:130px;}
+body.mobile .mobilepad{padding:0px}
+body.mobile .mozaixmobile > div:first-child{padding:0;}
+body.mobile #mobilewrap{float:right;width:80%;}
+body.mobile .module{margin:0;}
+body.mobile h3.moduletitle,body.mobile .modulecontent{border-right:none;}
+body.mobile #footerwrap {min-width:100%;}
+body.mobile span.itemImage img{max-width:100%;width:auto!important;}
+body.mobile #mobilewrap .lg > div:first-child,body.mobile #mobilewrap .lg > div:first-child + div{float:none!important;width:100%!important;}
+body.mobile #mobilewrap .lg a{line-height:16px!important;}
+#xtc-mobilesitewrap #menu{float:none;}
+.xtc-iconsidemob select[multiple], .xtc-iconsidemob select[size]{width:100%;}
+#component.mobilecomponent.clearfix {padding: 0 12px!important;}
+@media
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (-o-min-device-pixel-ratio:3/2),
+only screen and (min--moz-device-pixel-ratio:1.5),
+only screen and (min-device-pixel-ratio:1.5){
+html,  body{width:100%;overflow-x:hidden;}
+}
+.morewrap td.firstcol > div{text-align:right;}
+.morewrap td.centercol > div{text-align:left;}
+.area_map table{table-layout:fixed;}
+
+@media(max-width: <?php echo $params->mhidedefault;?>px ){
+	#region1 {display:<?php echo $params->r1mobile;?>!important;}
+	#region2 {display:<?php echo $params->r2mobile;?>!important;}
+	#region3 {display:<?php echo $params->r3mobile;?>!important;}
+	#region4 {display:<?php echo $params->r4mobile;?>!important;}
+	#region5 {display:<?php echo $params->r5mobile;?>!important;}
+	#region6 {display:<?php echo $params->r6mobile;?>!important;}
+	#region7 {display:<?php echo $params->r7mobile;?>!important;}
+	#region8 {display:<?php echo $params->r8mobile;?>!important;}
+	#region9 {display:<?php echo $params->r9mobile;?>!important;}
+}
+	

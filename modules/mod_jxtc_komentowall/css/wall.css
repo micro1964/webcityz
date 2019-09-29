@@ -1,0 +1,141 @@
+/*
+	Copyright (C) 2009,2010  Monev Software LLC.
+
+	All Rights Reserved.
+
+	http://www-joomlaxtc.com
+*/
+
+.popuphover{
+  cursor:pointer;
+}
+
+.jxtcpopup{
+  position:absolute;
+  float:left;
+  top:0;
+  left:0;
+  margin:0px auto 0px auto;
+  padding:5px;
+  z-index:99999;
+  border:8px solid #d1d1d1;
+  background: #d1d1d1;
+}
+
+.jxtcinner{
+  width:auto;
+}
+
+.jxtcpopupclose{
+  position:absolute;
+  width:30px;
+  height:30px;
+  margin:0;
+  padding:0px;
+  top:-25px;
+  right:0px;
+  cursor:pointer;
+  background: url(../images/closebox.png) no-repeat;
+}
+
+.jxtcpopupdrag{
+  position:absolute;
+  width:30px;
+  height:30px;
+  margin:0;
+  padding:0px;
+  top:-25px;
+  right:35px;
+  cursor:pointer;
+  background: url(../images/movebox.png) no-repeat;
+}
+
+.tip{
+	display:none;
+}
+
+.pop{
+	display:none;
+	cursor:pointer;
+}
+
+.prevbutton, .nextbutton {
+	margin:0;
+	cursor:pointer
+}
+
+/*semantic*/
+.wallview {
+	display:block;
+	height:80px;
+	overflow:hidden;
+}
+
+.wallslider {
+	display:table;
+	border-collapse:collapse;
+	position:relative;
+	visibility:hidden;
+}
+.wallsliderrow {
+	display:table-row;
+}
+.wallslidercell {
+	display:table-cell;
+	width:auto;
+	height:auto;
+	vertical-align:top;
+	text-align:left;
+}
+
+.wallfloat {
+	float:left;
+}
+.wallfloat.lastcol {
+	clear:right;
+}
+.wallpage {
+	display:table;
+	border-collapse:collapse;
+	width:100%;
+	height:100%;
+}
+.wallrow {
+	display:table-row;
+}
+.wallelement {
+	display:table-cell;
+	vertical-align:top;
+/*	text-align:left;*/
+}
+
+.wallspinner {
+	height:40px;
+	width:40px;
+	margin:20px auto;
+	position:relative;
+	-webkit-animation: spinrotation .6s infinite linear;
+	-moz-animation: spinrotation .6s infinite linear;
+	-o-animation: spinrotation .6s infinite linear;
+	animation: spinrotation .6s infinite linear;
+	border-left:6px solid rgba(128,128,128,.15);
+	border-right:6px solid rgba(128,128,128,.15);
+	border-bottom:6px solid rgba(128,128,128,.15);
+	border-top:6px solid rgba(128,128,128,.8);
+	border-radius:100%;
+}
+
+@-webkit-keyframes spinrotation {	from {-webkit-transform: rotate(0deg);}	to {-webkit-transform: rotate(359deg);} }
+@-moz-keyframes spinrotation { from {-moz-transform: rotate(0deg);}	to {-moz-transform: rotate(359deg);} }
+@-o-keyframes spinrotation { from {-o-transform: rotate(0deg);}	to {-o-transform: rotate(359deg);} }
+@keyframes spinrotation {	from {transform: rotate(0deg);}	to {transform: rotate(359deg);} }
+
+.pagebutton {
+	display:inline-block;
+	cursor:pointer;
+	padding:.1em;
+	background-color:rgba(127,127,127,.4);
+}
+
+.pagebutton.centerbutton { margin:0 .2em 0 .2em; }
+.pagebutton.current {	background-color:rgba(127,127,127,.8); }

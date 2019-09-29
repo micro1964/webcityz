@@ -1,0 +1,70 @@
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+.dnpgrid3 img {
+	max-width: 100%;
+	width: 100%;
+}
+.dnpgrid3 .dnpgrid3wrap p {
+	margin: 8px 0 !important;
+	font-size: 14px;
+}
+.dnpgrid3 .dnpgrid3wrap h3 {
+	color: #333;
+	padding: 0;
+}
+.dnpgrid3 .dnpgrid3wrap p.artintro {
+	margin: 25px 0 14px;
+}
+.dnpgrid3 .dnpgrid3wrap {
+	text-align: left;
+	padding: 12px 12px 12px 0;
+	margin-bottom: 18px;
+}
+.dnpgrid3 .articlebutton {
+	padding: 10px 24px;
+	font-weight: 700;
+	background: #333;
+	color: #fff;
+	display: inline-block;
+}
+
+@media (max-width: 900px) {
+.dnpgrid3 .firstcol, .dnpgrid3 .centercol, .dnpgrid3 .lastcol {
+	width: 100% !important;
+	float: none !important;
+}
+.dnpgrid3 .dnpgrid3wrap {
+	margin-bottom: 0 !important;
+	padding: 20px !important;
+}
+.dnpgrid3 .dnpgrid3wrap h3 {
+	padding-top: 0 !important;
+}
+}
+
+@media (max-width: 768px) {
+.dnpgrid3 .dnpgrid3wrap h3 {
+	text-align: center;
+}
+.dnpgrid3 .dnpgrid3wrap p {
+	font-size: 18px;
+	text-align: center;
+}
+.dnpgrid3 .dnpgrid3wrap {
+	text-align: center;
+}
+}

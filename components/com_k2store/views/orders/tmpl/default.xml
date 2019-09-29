@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Orders">
+		<message>
+			<![CDATA[Displays a list of orders.]]>
+		</message>
+	</layout>
+	
+	<state>
+		<name>Orders List Layout</name>
+		<description>Displays a list of orders Desc</description>
+		<params>
+		
+		</params>
+	</state>
+		
+</metadata>

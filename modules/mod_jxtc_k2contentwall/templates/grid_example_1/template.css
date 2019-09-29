@@ -1,0 +1,127 @@
+/* Default CSS */
+.legend {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 2px 5px 2px 2px;
+    border-bottom: 1px solid #333;
+}
+
+.tag {
+    padding: 2px;
+    font-size: 10px;
+    font-family: Arial;
+    color: #333;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #333;
+}
+
+h3.dnpgrid1-title {
+    font-size: 18px;
+}
+
+.dnpgrid1-wrap {
+    background: #fafafa;
+}
+
+.dnpgrid1-wrap:hover {
+    background: #d9f4f8;
+}
+
+.dnpgrid1-wrap img {
+    max-width: 100%;
+    width: 100%;
+}
+
+img.desaturate {
+    filter: gray;
+/* IE6-9 */
+    filter: grayscale(1);
+/* Firefox 35+ */
+    -webkit-filter: grayscale(1);
+/* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.dnpgrid1-wrap:hover img.desaturate {
+    -webkit-filter: none;
+    filter: none;
+}
+
+.dnpgrid1-inner {
+    padding: 35px 35px 0;
+    text-align: center;
+}
+
+.dnpgrid1-inner a {
+    color: #161616;
+}
+
+.dnpgrid1-wrap p {
+    margin-top: 22px;
+}
+
+ul.social {
+    margin-top: 18px;
+}
+
+div.wallfloat.row-2 .span6,div.wallfloat.row-4 .span6,div.wallfloat.row-6 .span6,div.wallfloat.row-8 .span6 {
+    float: right;
+}
+
+@media(max-width:1280px) {
+.dnpgrid1-inner {
+    padding: 35px 35px 0;
+    text-align: center;
+}
+}
+
+@media(max-width:1160px) {
+.dnpgrid1-inner {
+    padding: 20px 25px 0;
+    text-align: center;
+}
+}
+
+@media(max-width:1080px) {
+h3.dnpgrid1-title {
+    font-size: 18px;
+}
+
+.dnpgrid1-inner p {
+    font-size: 12px !important;
+}
+}
+
+@media(max-width:1024px) {
+.dnpgrid1-wrap img.desaturate {
+    -webkit-filter: none;
+    filter: none;
+}
+}
+
+@media(max-width:960px) {
+.dnpgrid1-inner {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.dnpgrid1-inner p {
+    padding-bottom: 24px;
+}
+}
+
+@media(max-width:900px) {
+.dnpgrid1-inner {
+    padding: 35px 35px 0;
+    text-align: center;
+}
+
+h3.dnpgrid1-title {
+    font-size: 24px;
+}
+
+.dnpgrid1-inner p {
+    font-size: 16px !important;
+}
+}

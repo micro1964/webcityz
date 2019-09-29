@@ -1,0 +1,123 @@
+.legend {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 2px 5px 2px 2px;
+    border-bottom: 1px solid #333;
+}
+
+.tag {
+    padding: 2px;
+    font-size: 10px;
+    font-family: Arial;
+    color: #333;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #333;
+}
+
+.dnphero_inner {
+    padding: 200px 80px;
+}
+
+h1.slidetitle1 {
+    text-transform: uppercase;
+    font-size: 64px !important;
+    color: #fff;
+}
+
+h2.slidetitle2 {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    line-height: 160% !important;
+    color: #fff;
+    padding: 20px 60px;
+}
+
+.buttonbar {
+    margin-top: 46px;
+    padding: 10px;
+    display: inline-block;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.7);
+}
+
+a.rmore {
+    background: #ff776d;
+    color: #fff;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    -ms-transition: background 1s;
+    transition: background 1s;
+    font-size: 1.2em;
+    margin-right: 8px;
+    padding: 18px 30px;
+    max-width: 200px;
+    font-weight: 100;
+    display: inline-block;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+a.rmore1 {
+    background: rgba(255,255,255,0.15);
+    color: #f3f3f3;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    -ms-transition: background 1s;
+    transition: background 1s;
+    font-size: 1.2em;
+    padding: 18px 30px;
+    max-width: 200px;
+    font-weight: 100;
+    display: inline-block;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+a.rmore:hover,a.rmore1:hover {
+    color: #fff;
+}
+
+@media(max-width:570px) {
+a.rmore,a.rmore1 {
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+a.rmore1 {
+    background: #000;
+}
+
+.dnphero_inner {
+    padding: 100px 20px;
+}
+
+.buttonbar {
+    margin-top: 46px;
+    padding: 0;
+    display: inline-block;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: transparent;
+}
+
+h1.slidetitle1 {
+    text-transform: uppercase;
+    font-size: 34px !important;
+    color: #fff;
+}
+
+h2.slidetitle2 {
+    padding: 20px;
+    font-size: 16px !important;
+}
+}
+	

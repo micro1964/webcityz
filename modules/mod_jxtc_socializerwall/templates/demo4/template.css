@@ -1,0 +1,124 @@
+/* Sample CSS file */
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 10px 2px 10px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px 0 2px 10px ;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+
+.fivehundredpx  {color:#a6a6a6!important;}
+.aboutme  {color:#a6a6a6!important;}
+.amazon  {color:#a6a6a6!important;}
+.aol  {color:#a6a6a6!important;}
+.appstore  {color:#a6a6a6!important;}
+.apple  {color:#a6a6a6!important;}
+.bebo  {color:#a6a6a6!important;}
+.behance  {color:#a6a6a6!important;}
+.bing  {color:#a6a6a6!important;}
+.blip  {color:#a6a6a6!important;}
+.blogger  {color:#a6a6a6!important;}
+.coroflot  {color:#a6a6a6!important;}
+.daytum {color:#a6a6a6!important;}
+.delicious  {color:#a6a6a6!important;}
+.designbump  {color:#a6a6a6!important;}
+.designfloat {color:#a6a6a6!important;}
+.deviantart {color:#a6a6a6!important;}
+.digg {color:#a6a6a6!important;}
+.dribble {color:#a6a6a6!important;}
+.drupal {color:#a6a6a6!important;}
+.email {color:#a6a6a6!important;}
+.ebay {color:#a6a6a6!important;}
+.etsy  {color:#a6a6a6!important;}
+.facebook {color:#a6a6a6!important;}
+.feedburner  {color:#a6a6a6!important;}
+.flickr  {color:#a6a6a6!important;}
+.foodspotting {color:#a6a6a6!important;}
+.forrst  {color:#a6a6a6!important;}
+.foursquare  {color:#a6a6a6!important;}
+.friendsfeed {color:#a6a6a6!important;}
+.friendstar {color:#a6a6a6!important;}
+.gdgt {color:#a6a6a6!important;}
+.github  {color:#a6a6a6!important;}
+.googleplus  {color:#a6a6a6!important;}
+.googletalk  {color:#a6a6a6!important;}
+.grooveshark  {color:#a6a6a6!important;}
+.hyves  {color:#a6a6a6!important;}
+.icondock  {color:#a6a6a6!important;}
+.icq  {color:#a6a6a6!important;}
+.identica  {color:#a6a6a6!important;}
+.imessage  {color:#a6a6a6!important;}
+.instagram  {color:#a6a6a6!important;}
+.itunes  {color:#a6a6a6!important;}
+.lastfm  {color:#a6a6a6!important;}
+.linkedin  {color:#a6a6a6!important;}
+.meetup  {color:#a6a6a6!important;}
+.metacafe  {color:#a6a6a6!important;}
+.mrwong  {color:#a6a6a6!important;}
+.msn {color:#a6a6a6!important;}
+.myspace  {color:#a6a6a6!important;}
+.newsvine  {color:#a6a6a6!important;}
+.paypal  {color:#a6a6a6!important;}
+.photobucket  {color:#a6a6a6!important;}
+.picasa  {color:#a6a6a6!important;}
+.pinterest {color:#a6a6a6!important;}
+.podcast {color:#a6a6a6!important;}
+.qik {color:#a6a6a6!important;}
+.quora  {color:#a6a6a6!important;}
+.reddit  {color:#a6a6a6!important;}
+.retweet  {color:#a6a6a6!important;}
+.rss  {color:#a6a6a6!important;}
+.scribd  {color:#a6a6a6!important;}
+.sharethis {color:#a6a6a6!important;}
+.skype  {color:#a6a6a6!important;}
+.slashdot  {color:#a6a6a6!important;}
+.slideshare  {color:#a6a6a6!important;}
+.smugmug  {color:#a6a6a6!important;}
+.soundcloud  {color:#a6a6a6!important;}
+.spotify  {color:#a6a6a6!important;}
+.squidoo  {color:#a6a6a6!important;}
+.stackoverflow  {color:#a6a6a6!important;}
+.stumbleupon  {color:#a6a6a6!important;}
+.technorati  {color:#a6a6a6!important;}
+.tumblr  {color:#a6a6a6!important;}
+.twitterbird  {color:#a6a6a6!important;}
+.twitter  {color:#a6a6a6!important;}
+.viddler {color:#a6a6a6!important;}
+.vimeo  {color:#a6a6a6!important;}
+.virb  {color:#a6a6a6!important;}
+.www  {color:#a6a6a6!important;}
+.wikipedia  {color:#a6a6a6!important;}
+.windows  {color:#a6a6a6!important;}
+.wordpress  {color:#a6a6a6!important;}
+.xing  {color:#a6a6a6!important;}
+.yahoobuzz  {color:#a6a6a6!important;}
+.yahoo  {color:#a6a6a6!important;}
+.yelp  {color:#a6a6a6!important;}
+.youtube  {color:#a6a6a6!important;}
+
+.socialtabrow {padding: 4px 4px 4px 8px; margin:6px;
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    cursor: pointer;
+    outline: none;
+    }
+.socialtabrow:hover,.socialtabrow a:hover {background:#999;color:#fff!important;-webkit-transition-property: color, background;
+ -webkit-transition-duration: 0.15s, 0.15s;
+ -webkit-transition-timing-function: ease-in, ease-out;
+ -o-transition-property: color, background;
+ -o-transition-duration: 0.15s, 0.15s;
+ -o-transition-timing-function: ease-in, ease-out;
+ -moz-transition-property: color, background;
+ -moz-transition-duration: 0.15s, 0.15s;
+ -moz-transition-timing-function: ease-in, ease-out;}
+.socialicontext {font-weight: bold;text-align:center;}
+
+

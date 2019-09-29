@@ -1,0 +1,61 @@
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 5px 2px 2px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+
+.tip {z-index:24;}
+.komento_tooltips_wrap {max-width:100%}
+.komento_tooltips_wrap img {max-width:100%}
+.komento_slidetip
+{
+
+width: 140px;
+height: 110px;
+padding: 0px;
+background: #FFFFFF;
+border: #407FA4 solid 5px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+z-index:24;
+}
+
+.komento_slidetip:after
+{
+content: "";
+position: absolute;
+bottom: -15px;
+left: 52px;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.komento_slidetip:before
+{
+content: "";
+position: absolute;
+top: 115px;
+left: 48px;
+border-style: solid;
+border-width: 19px 19px 0;
+border-color: #407FA4 transparent;
+display: block;
+width: 0;
+z-index: 0;
+}
+
+.innerpad {padding:20px;}

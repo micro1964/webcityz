@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" method="upgrade">
+	<name>JoomlaXTC Slide</name>
+	<author>JoomlaXTC</author>
+	<copyright>Copyright (C) 2009-2015 Monev Software, LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<creationDate>2015-01-21</creationDate>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.2.1</version>
+	<description>JoomlaXTC Slide module</description>
+	<files>
+    <filename module="mod_jxtc_slide">mod_jxtc_slide.php</filename>
+    <filename>index.html</filename>
+    <folder>css</folder>
+    <folder>js</folder>
+    <folder>templates</folder>
+	</files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+			  <field name="panelWidth" type="text" default="900" label="Width" description="The width of the panel where the boxes and login form are going to be showed." />
+		    <field name="panelHeight" type="text" default="330" label="Height" description="The height of the panel where the boxes and login form are going to be showed." />
+		    <field name="panelBg" type="text" default="000000" label="Background color" description="The color of the panel's background." />
+		    <field name="panelOpacity" type="text" default="90" label="Background opacity" description="The opacity of the panel's background." />
+		    <field name="panelDir" type="list" default="top" label="Direction" description="The direction from wich the panel will come from." >
+					<option value="top">Top</option>
+		      <option value="bottom">Bottom</option>
+				</field>
+		    <field name="panelSpeedIn" type="text" default="1000" label="Slide In duration" description="The duration of the sliding effect." />
+		    <field name="panelTransTypeIn" type="list" default="linear" label="Transition In type" description="The panel transition animation type." >
+					<option value="linear">Linear</option>
+					<option value="Quad">Quad</option>
+					<option value="Cubic">Cubic</option>
+					<option value="Quart">Quart</option>
+					<option value="Quint">Quint</option>
+					<option value="Expo">Expo</option>
+					<option value="Circ">Circ</option>
+					<option value="Sine">Sine</option>
+					<option value="Back">Back</option>
+					<option value="Bounce">Bounce</option>
+					<option value="Elastic">Elastic</option>
+				</field>
+				<field name="panelTransEaseIn" type="list" default="easeIn" label="Transition In Ease mode" description="The panel transition easing mode." >
+					<option value="easeIn">easeIn</option>
+					<option value="easeOut">easeOut</option>
+					<option value="easeInOut">easeInOut</option>
+				</field>
+		    <field name="closeText" type="text" default="Close" label="Close text" description="The text of the Close button." />
+		    <field name="panelCloseFx" type="list" default="so" label="Panel Closing FX" description="The FX to use when closing the panel." >
+					<option value="s">Slide</option>
+					<option value="o">Opacity</option>
+					<option value="so">Slide &amp;amp; Opacity</option>
+				</field>
+		    <field name="panelSpeedOut" type="text" default="500" label="Slide Out duration" description="The duration of the sliding effect." />
+		    <field name="panelTransTypeOut" type="list" default="linear" label="Transition Out type" description="The panel transition animation type." >
+					<option value="linear">Linear</option>
+					<option value="Quad">Quad</option>
+					<option value="Cubic">Cubic</option>
+					<option value="Quart">Quart</option>
+					<option value="Quint">Quint</option>
+					<option value="Expo">Expo</option>
+					<option value="Circ">Circ</option>
+					<option value="Sine">Sine</option>
+					<option value="Back">Back</option>
+					<option value="Bounce">Bounce</option>
+					<option value="Elastic">Elastic</option>
+				</field>
+				<field name="panelTransEaseOut" type="list" default="easeOut" label="Transition Out Ease mode" description="The panel transition easing mode." >
+					<option value="easeIn">easeIn</option>
+					<option value="easeOut">easeOut</option>
+					<option value="easeInOut">easeInOut</option>
+				</field>
+			  <field name="boxesLayout" type="list" default="lr" label="Boxes Layout" description="Select the layout of the panel.">
+					<option value="l">Only LeftBox</option>
+		      <option value="r">Only RightBox</option>
+					<option value="lr">LeftBox and RightBox</option>
+				</field>
+		    <field name="boxesAnimOrder" type="list" default="l" label="Boxes Animation Order" description="Choose wich box to animate first or if animate both boxes simultaneously.">
+					<option value="l">LeftBox first</option>
+		      <option value="r">RightBox first</option>
+					<option value="lr">LeftBox and RightBox simultaneously</option>
+				</field>
+		    <field name="boxLeftWidth" type="text" default="380" label="Box Width" description="The width of the left box." />
+		    <field name="boxLeftHeight" type="text" default="300" label="Box Height" description="The height of the left box." />
+		    <field name="boxLeftFx" type="list" default="so" label="BoxLeft FX" description="The FX to use when animating the left box." >
+					<option value="s">Slide</option>
+					<option value="o">Opacity</option>
+					<option value="so">Slide &amp;amp; Opacity</option>
+				</field>
+		    <field name="boxLeftDir" type="list" default="left" label="Slide Direction" description="The direction from wich the box will come from." >
+		      <option value="left">Left</option>
+		      <option value="right">Right</option>
+		      <option value="top">Top</option>
+		      <option value="bottom">Bottom</option>
+		    </field>
+			<field name="boxLeftSpeed" type="text" default="1000" label="Transition duration" description="The duration of the Left Box effect." />
+		    <field name="boxLeftTransType" type="list" default="linear" label="Transition type" description="The Left box transition animation type." >
+					<option value="linear">Linear</option>
+					<option value="Quad">Quad</option>
+					<option value="Cubic">Cubic</option>
+					<option value="Quart">Quart</option>
+					<option value="Quint">Quint</option>
+					<option value="Expo">Expo</option>
+					<option value="Circ">Circ</option>
+					<option value="Sine">Sine</option>
+					<option value="Back">Back</option>
+					<option value="Bounce">Bounce</option>
+					<option value="Elastic">Elastic</option>
+				</field>
+				<field name="boxLeftTransEase" type="list" default="easeIn" label="Transition Ease mode" description="The Left Box transition easing mode." >
+					<option value="easeIn">easeIn</option>
+					<option value="easeOut">easeOut</option>
+					<option value="easeInOut">easeInOut</option>
+				</field>
+		    <field name="boxRightWidth" type="text" default="380" label="Right Box Width" description="The with of the right box." />
+		    <field name="boxRightHeight" type="text" default="300" label="Right Box Height" description="The height of the right box." />
+		    <field name="boxRightFx" type="list" default="so" label="BoxRight FX" description="The FX to use when animating the right box." >
+					<option value="s">Slide</option>
+					<option value="o">Opacity</option>
+					<option value="so">Slide &amp;amp; Opacity</option>
+				</field>
+		    <field name="boxRightDir" type="list" default="right" label="Right Box Slide Direction" description="The direction from wich the box will come from." >
+		      <option value="left">Left</option>
+		      <option value="right">Right</option>
+		      <option value="top">Top</option>
+		      <option value="bottom">Bottom</option>
+		    </field>
+				<field name="boxRightSpeed" type="text" default="1000" label="Transition duration" description="The duration of the Right Box effect." />
+		    <field name="boxRightTransType" type="list" default="linear" label="Transition type" description="The Right Box transition animation type." >
+					<option value="linear">Linear</option>
+					<option value="Quad">Quad</option>
+					<option value="Cubic">Cubic</option>
+					<option value="Quart">Quart</option>
+					<option value="Quint">Quint</option>
+					<option value="Expo">Expo</option>
+					<option value="Circ">Circ</option>
+					<option value="Sine">Sine</option>
+					<option value="Back">Back</option>
+					<option value="Bounce">Bounce</option>
+					<option value="Elastic">Elastic</option>
+				</field>
+				<field name="boxRightTransEase" type="list" default="easeIn" label="Transition Ease mode" description="The Right Box transition easing mode." >
+					<option value="easeIn">easeIn</option>
+					<option value="easeOut">easeOut</option>
+					<option value="easeInOut">easeInOut</option>
+				</field>
+				<field name="template" type="folderlist" directory="modules/mod_jxtc_slide/templates" hide_default="1" description="Choose a pre-made template for module contents, or select 'none' and use the advanced fields to enter custom code in them."/>
+				<field name="plugins" type="radio" default="1" label="Content plugins" description="Enable or disable content plugins.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+      <fieldset name="advanced">
+		    <field name="trigger" type="textarea" filter="RAW" rows="10" cols="40" default="Click me!" label="Trigger" description="The content of the trigger. You can use plain text, HTML and CSS." />
+				<field name="triggerout" type="textarea" filter="RAW" rows="10" cols="40" default="Log Out!" label="Trigger Out" description="The content of the trigger out. You can use plain text, HTML and CSS." />
+		    <field name="boxLeft" type="textarea" filter="RAW" rows="10" cols="40" default="{loginform}" label="Left Box" description="The content of the left box. You can use plain text, HTML, CSS and {loginform} markup." />
+		    <field name="boxRight" type="textarea" filter="RAW" rows="10" cols="40" default="" label="Right Box" description="The content of the right box. You can use plain text, HTML, CSS and {loginform} markup." />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" /> 
+				<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field name="cachemode" type="hidden" default="static">
+					<option value="static"></option>
+				</field>
+      </fieldset>
+		</fields>
+	</config>
+</extension>

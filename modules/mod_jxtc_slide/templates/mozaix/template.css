@@ -1,0 +1,31 @@
+.login_open_wrap {margin-top:4px;}
+.mrightlogin i {color:#ccc;font-size:16px;}
+@media(max-width:1450px){
+.slide-container {left: 40%!important;}
+}
+@media(max-width:1300px){
+.slide-container {left: 40%!important;}
+}
+@media(max-width:1170px){
+.slide-container {left: 20%!important;}
+}
+@media(max-width:620px){
+.slide-bg {width:620px!important;}
+.slide-container {width:580px!important;left:0%!important;border: 0px!important;}
+.slide-leftbox{width:580px!important;}
+}
+
+@media(max-width:480px){
+.slide-bg {width:480px!important;}
+.slide-container {width:450px!important;left:0%!important;border: 0px!important;}
+.slide-leftbox{width:450px!important;}
+}
+
+@media(max-width:320px){
+.slide-bg {width:320px!important;height:180px!important;}
+.slide-container {width:320px!important;left:0%!important;border: 0px!important;height:180px!important;}
+.slide-leftbox{width:320px!important;height:180px!important;}
+}
+
+
+

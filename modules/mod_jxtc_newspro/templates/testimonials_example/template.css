@@ -1,0 +1,66 @@
+/* Default CSS */
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+.dnpwall_testwrap {
+	padding: 40px;
+	background: #5EA8CC;
+	color: #fff;
+}
+.dnpwall_testwrap h2 {
+	color: #fff;
+}
+.testimonial_image img {
+	border-radius: 50%;
+	text-align: center;
+	border: 8px solid #fff;
+}
+.pagebutton, .pagebutton.current {
+	background: transparent;
+	padding: 0;
+}
+.pagebutton.current:before {
+	content: '●';
+	color: #fff;
+	font-size: 36px;
+	display: block;
+}
+.pagebutton:before {
+	content: '○';
+	color: #fff;
+	font-size: 36px;
+	display: block;
+}
+.pagebutton span {
+	display: none;
+}
+
+@media(max-width:768px) {
+.testimonials {
+	text-align: center;
+}
+}
+
+@media(max-width:480px) {
+.dnpwall_testwrap {
+	padding: 20px;
+}
+.testimonial_image img {
+	border-radius: 50%;
+	text-align: center;
+	border: 0 solid #fff;
+}
+}

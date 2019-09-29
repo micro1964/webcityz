@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" method="upgrade">
+	<name>JoomlaXTC Komento Wall</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2017-08-29</creationDate>
+	<copyright>Copyright (C) 2008-2017 Monev Software LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.3.0</version>
+	<description>JoomlaXTC Komento Wall v1.3.0 - Visit www.joomlaxtc.com documents area for help.</description>
+	<files>
+		<filename module="mod_jxtc_komentowall">mod_jxtc_komentowall.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>LICENSE.txt</filename>
+		<filename>COPYRIGHT.txt</filename>
+		<folder>buttons</folder>
+		<folder>css</folder>
+		<folder>elements</folder>
+		<folder>images</folder>
+		<folder>tmpl</folder>
+		<folder>templates</folder>
+	</files>
+	<media destination="JoomlaXTC" folder="media">
+		<filename>index.html</filename>
+		<filename>readme.txt</filename>
+		<filename>showcaseFX.js</filename>
+		<filename>wallFX.js</filename>
+	</media>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_jxtc_komentowall/elements">
+			<fieldset name="basic">
+			<field type="xspacer" title="SELECTION PARAMETERS:" />
+
+                <field name="component_id" type="jxtckcomponent" default="0" label="Select component" description="Select the component source of the comments." />
+                <field name="issticked" type="list" default="0" label="Include Sticked?" description="Set sticked comments inclusion." >
+                    <option value="0">No</option>
+                    <option value="1">Yes, if present</option>
+                    <option value="2">Only Sticked</option>
+                </field>
+                <field name="onlyreplies" type="list" default="0" label="Include replies?" description="Set comment replies inclusion." >
+                    <option value="0">No</option>
+                    <option value="1">Yes, if present</option>
+                    <option value="2">Only replies</option>
+                </field>
+                <field name="authorid" type="jxtcauthor" default="-1" label="Authors" description="Filter according to article authors." />
+                <field name="group" type="radio" default="0" class="btn-group" label="One comment per author?" description="Limit articles to one per author?" >
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+                <field name="sortfield" type="list" default="0" label="Sort field" description="Post sort order.">
+                    <option value="0">Component name</option>
+                    <option value="1">User name</option>
+                    <option value="2">User username</option>
+                    <option value="3">Commentor name</option>
+                    <option value="4">Comment title</option>
+                    <option value="5">Creation date</option>
+                    <option value="6">Publish date</option>
+                    <option value="7">Random</option>
+                </field>
+                <field name="sortorder" type="list" default="1" label="Sort order" description="Select a sort order for post selection." >
+                    <option value="0">Ascending</option>
+                    <option value="1">Descending</option>
+                </field>
+		<field type="xspacer" title="DISPLAY PARAMETERS:" />
+		<field name="columns" type="text" default="1" label="Columns" description="Number of columns to show." />
+		<field name="rows" type="text" default="1" label="Rows" description="Number of rows to show." />
+		<field name="pages" type="text" default="1" label="Pages" description="Number of pages to show. Transition effects are enabled between page changes." />
+		<field name="offset" type="text" default="0" label="Offset" description="Number of results to skip" />
+		<field name="transmode" type="list" default="hslide" label="Display Style" description="Transition effect mode.">
+		  <option value="hslide">Horizontal slider</option>
+		  <option value="vslide">Vertical slider</option>
+		  <option value="fade">Fader</option>
+		  <option value="wind">Draggable Window</option>
+		  <option value="winz">Zoom Window</option>
+		</field>
+		<field name="width" type="text" default="200" label="Window Width" description="Window width in pixels (only for Window mode)." />
+		<field name="height" type="text" default="200" label="Window Height" description="Window height in pixels (only for Window mode)." />
+		<field name="transpause" type="text" default="4000" label="Transition pause" description="Pause time between transitions (in milliseconds, default: 4000)." />
+		<field name="transspeed" type="text" default="1500" label="Transition duration" description="Transition duration in milliseconds (default: 1500)." />
+		<field name="transflow" type="list" default="0" label="Slide orientation" description="Starting transition orientation." >
+			<option value="0">Top-Bottom / Left-Right</option>
+			<option value="1">Bottom-Top / Right-Left</option>
+		</field>
+		<field name="transtype" type="list" default="1" label="Transition type" description="Transition animation type." >
+			<option value="1">Linear</option>
+			<option value="2">Quad</option>
+			<option value="3">Cubic</option>
+			<option value="4">Quart</option>
+			<option value="5">Quint</option>
+			<option value="6">Expo</option>
+			<option value="7">Circ</option>
+			<option value="8">Sine</option>
+			<option value="9">Back</option>
+			<option value="10">Bounce</option>
+			<option value="11">Elastic</option>
+		</field>
+		<field name="button" type="jxtcbuttonset" default="black" label="Button Style" directory="modules/mod_jxtc_komentowall/buttons" description="Button graphic set to use (if enabled)."/>
+
+                <field name="template" type="xtstemplate" module="modulehtml" element="html" default="" label="Template" description="Select an exisiting module template. If none used, the following fields will be used." />
+                <field name="modulehtml"  type="textarea" filter="raw" rows="10" cols="40" default="{mainarea}" label="Module HTML template" description="HTML/CSS code to draw the complete module box. The {mainarea} tag represents the article display area." />
+                <field name="html"  type="textarea" filter="raw" rows="10" cols="40" default="{intro}" label="Main Item HTML template" description="HTML/CSS code to display each article. You can embedd any of the supported tags to display article information." />
+                <field name="avatarw" type="text" default="30" label="Avatar width" description="Avatar width (if applicable)." />
+                <field name="avatarh" type="text" default="30" label="Avatar height" description="Avatar height (if applicable)." />
+                
+                <field name="dateformat" type="text" default="Y-m-d" label="Date format" description="Date format (using PHP date function). Defaulty is: Y-m-d" />
+								<field type="xspacer" title="'MORE' AREA CONFIGURATION:" />
+                <field name="moretemplate" type="textarea" filter="raw" rows="10" cols="40" default="" label="'More' Item HTML template" description="HTML/CSS code to display each article. You can embedd any of the supported tags to display article information." />
+                <field name="moreqty" type="text" default="0" label="More items" description="Enter how many elements to show in 'more area'." />
+                <field name="moreclone" type="radio" class="btn-group" default="0" label="Clone from main?" description="Enabling this will make the articles in the more section be the same as in the main section.">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+                <field name="morecols" type="text" default="1" label="More Columns" description="Number of articles to show horizontally. If number of articles is higher, multiple rows will be shown." />
+                <field name="moretext" type="text" default="" label="More legend" description="Legend to show in read more area." />
+                <field name="morergb" type="colorinput" default="CCCCCC" label="More legend color" description="Legend color." />
+	</fieldset>
+	<fieldset name="advanced">
+
+		<field name="translayer" type="text" default="0" label="Z layer" description="Define the z-index layer to use for the effects." />
+	  <field name="css" type="textarea" filter="RAW" rows="10" cols="40" default="" label="Custom CSS" description="Optional CSS code to include." />
+		<field type="xspacer" title="Tooltip / Pop-Up FX Settings:" />
+		<field name="nptipoi" type="text" default="1" label="In Opacity" description="Tooltip / Popup In Opacity Value." />
+		<field name="nptipoo" type="text" default="0" label="Out Opacity" description="Tooltip / Popup Out Opacity Value." />
+		<field name="nptipvi" type="text" default="0" label="In Animation Vertical" description="Height of Vertical In Animation." />
+		<field name="nptipvo" type="text" default="0" label="Out Animation Vertical" description="Height of Vertical Out Animation." />
+		<field name="nptiphi" type="text" default="0" label="In Animation Horizontal" description="Width of Tooltip / Popup In Animation." />
+		<field name="nptipho" type="text" default="0" label="Out Animation Horizontal" description="Width of Tooltip Out / Popup Animation." />
+		<field name="nptipdi" type="text" default="550" label="Fade-In Duration" description="Tooltip / Popup Animation Fade In Duration." />
+		<field name="nptipdo" type="text" default="550" label="Fade-Out Duration" description="Tooltip / Popup Animation Fade Out Duration." />
+		<field name="nptpause" type="text" default="1000" label="Pause" description="Tooltip Pause Value (in millisencods)." />
+		<field name="nptipAnim" type="list" default="Quad" label="Tooltip animation mode" description="Tooltip / Popup animation mode." >
+			<option value="Quad">Quad transition</option>
+			<option value="linear">Linear transition</option>
+			<option value="Cubic">Cubic transition</option>
+			<option value="Quart">Quart transition</option>
+			<option value="Quint">Quint transition</option>
+			<option value="Expo">Exponential transition</option>
+			<option value="Circ">Circular transition</option>
+			<option value="Sine">Sine transition</option>
+			<option value="Back">Makes the transition go back, then forward</option>
+			<option value="Bounce">Makes the transition bouncy</option>
+			<option value="Elastic">Elastic</option>
+		</field>
+		<field name="nptipEase" type="list" default="easeIn" label="Tooltip / Popup ease mode" description="Tooltip ease mode." >
+			<option value="easeIn">Ease In</option>
+			<option value="easeOut">Ease Out</option>
+			<option value="easeInOut">Ease In/Out</option>
+		</field>
+		<field name="nptipCenter" type="radio" class="btn-group" default="1" label="Centered Popup" description="Centers the pop-up window on the screen." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field type="xspacer" title="Slide FX Settings:" />
+		<field name="npslideitfx" type="list" default="easeIn" label="Sliding Panel Settings" description="Sliding Panel" >
+			<option value="RSO">Right Slide Out</option>
+		  <option value="RSI">Right Slide In</option>
+			<option value="LSO">Left Slide Out</option>
+		  <option value="LSI">Left Slide In</option>
+			<option value="BSO">Bottom Slide Out</option>
+		  <option value="BSI">Bottom Slide In</option>
+			<option value="TSO">Top Slide Out</option>
+		  <option value="TSI">Top Slide In</option>
+		  <option value="TRSO">Top Right Slide Out</option>
+		  <option value="TRSI">Top Right Slide In</option>
+		  <option value="TLSO">Top Left Slide Out</option>
+		  <option value="TLSI">Top Left Slide In</option>
+		  <option value="BRSO">Bottom Right Slide Out</option>
+		  <option value="BRSI">Bottom Right Slide In</option>
+		  <option value="BLSO">Bottom Left Slide Out</option>
+		  <option value="BLSI">Bottom Left Slide In</option>
+			<option value="CM">Custom</option>
+		</field>
+		<field name="npslixin" type="text" default="" label="Slide Panel X In" description="Slide X coordiantes px"/>
+		<field name="npslixout" type="text" default="" label="Slide Panel X out" description="Slide X coordiantes px"/>
+		<field name="npsliyin" type="text" default="" label="Slide Panel Y In" description="Slide Y coordiantes px"/>
+		<field name="npsliyout" type="text" default="" label="Slide Panel Y Out" description="Slide Y coordiantes px"/>
+		<field name="npsliAnim" type="list" default="Quad" label="Slide animation mode" description="Slide Panel animation mode." >
+			<option value="Quad">Quadratic transition</option>
+			<option value="linear">Linear transition</option>
+			<option value="Cubic">Cubicular transition</option>
+			<option value="Quart">Quartetic transition</option>
+			<option value="Quint">Quintic transition</option>
+			<option value="Expo">Exponential transition</option>
+			<option value="Circ">Circular transition</option>
+			<option value="Sine">Sineousidal transition</option>
+			<option value="Back">Makes the transition go back, then all forth</option>
+			<option value="Bounce">Makes the transition bouncy</option>
+			<option value="Elastic">Elastic curve</option>
+		</field>
+		<field name="npsliEase" type="list" default="easeIn" label="Slide ease mode" description="Slide ease mode." >
+			<option value="easeIn">Ease In</option>
+			<option value="easeOut">Ease Out</option>
+			<option value="easeInOut">Ease In/Out</option>
+		</field>
+		<field name="npslidi" type="text" default="50" label="Frames Per Second" description="Frames per second" />
+		<field name="npslido" type="text" default="800" label="Frame Duration" description="Duration in Milliseconds." />
+		<field type="xspacer" title="Hover Color Change FX Settings:" />
+		<field name="hoifx" type="colorinput" default="CECECE" label="Hover Effect In Color" description="Hover Effect Color"/>
+		<field name="hoofx" type="colorinput" default="FFFFFF" label="Hover Effect Out Color" description="Original Background Color"/>
+		<field type="xspacer" title="Module Settings:" />
+		<field name="onclick" type="radio" class="btn-group" default="0" label="Refresh on click" description="Refresh wall contents on mouse click." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="layout" type="modulelayout" default="_:default" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+		<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+		<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+			<option value="1">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+		</field>
+		<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+
+	</fieldset>
+	</fields>
+	</config>
+
+</extension>

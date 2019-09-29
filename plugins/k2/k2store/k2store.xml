@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" method="upgrade" group="k2">
+  <name>K2 Plugin - K2 Store</name>
+  <author>RameshElamathi</author>
+  <creationDate>October 10, 2010</creationDate>
+  <copyright>Copyright (c) 2010 - 2015 Weblogicx India Private Ltd. All rights reserved.</copyright>
+  <authorEmail>info@weblogicxindia.com</authorEmail>
+  <authorUrl>www.weblogicxindia.com</authorUrl>
+  <version>2.4</version>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[<h3>K2 Store</h3>
+      
+      The Plugin extends the K2 CCK with an <b>e-commerce feature.</b> The Features include:
+      
+      <ul>
+      <li>provides an ajax shopping cart </li>
+      <li>Paypal payment gateway integrated </li>
+      <li>uses the extra fields to get the price information</li>
+      <li>unobstrusive</li>
+      <li>convert k2 items into products</li>
+      </ul>
+      
+      Please contact to us for more info <a href="mailto:rameshelamathi@gmail.com">rameshelamathi@gmail.com</a>]]></description>
+	<files>
+		<filename plugin="k2store">k2store.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<params group="item-content" addpath="/administrator/components/com_k2store/elements">
+		<param name="item_enabled" type="list" default="0" size="1" label="K2STORE_ITEM_ENABLED" description="K2STORE_ITEM_ENABLED_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>		
+		<param name="item_sku" type="text" size="10" default="" label="K2STORE_ITEM_SKU" description="K2STORE_ITEM_SKU_DESC" />
+		<param name="item_price" type="text" size="10" default="" label="K2STORE_ITEM_PRICE" description="K2STORE_ITEM_PRICE_DESC" />
+		<param name="special_price" type="text" size="10" id="special_price" label="K2STORE_SPECIAL_PRICE_LABEL" description="K2STORE_SPECIAL_PRICE_DESC"/>
+		<param name="item_tax" type="taxselect" size="0" default="" label="K2STORE_ITEM_TAX" description="K2STORE_ITEM_TAX_DESC" />
+		<param name="item_shipping" type="list" default="0" label="K2STORE_ITEM_SHIPPING" description="K2STORE_ITEM_SHIPPING_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="item_option" type="optionselect" size="0" default="" label="K2STORE_PRODUCT_OPTION" description="K2STORE_PRODUCT_OPTION_DESC" />
+		
+	</params>
+	
+	<fields group="item-content">
+	<fieldset addfieldpath="/administrator/components/com_k2store/elements">
+		<field name="item_enabled" type="radio" default="0" class="btn-group" label="K2STORE_ITEM_ENABLED" description="K2STORE_ITEM_ENABLED_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field>		
+		<field name="item_sku" type="text" size="10" default="" label="K2STORE_ITEM_SKU" description="K2STORE_ITEM_SKU_DESC" />
+		<field name="item_price" type="text" size="10" default="" label="K2STORE_ITEM_PRICE" description="K2STORE_ITEM_PRICE_DESC" />
+		<field name="special_price" type="text" size="10" id="special_price" label="K2STORE_SPECIAL_PRICE_LABEL" description="K2STORE_SPECIAL_PRICE_DESC"/>
+		<field name="item_tax" type="taxselectj3" size="0" default="" label="K2STORE_ITEM_TAX" description="K2STORE_ITEM_TAX_DESC" />
+		<field name="item_shipping" type="radio" default="0" class="btn-group" label="K2STORE_ITEM_SHIPPING" description="K2STORE_ITEM_SHIPPING_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field>		
+		<field name="item_option" type="optionselectj3" size="0" default="" label="K2STORE_PRODUCT_OPTION" description="K2STORE_PRODUCT_OPTION_DESC" />
+
+		
+		</fieldset>
+	</fields>
+</extension>

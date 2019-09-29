@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template" client="site" method="upgrade">
+  <name>Mozaix</name>
+  <creationDate>2014-01-13</creationDate>
+  <author>JoomlaXTC</author>
+  <authorUrl>http://www.joomlaxtc.com</authorUrl>
+  <copyright>Copyright (c) 2013,2014 Monev Software LLC.  All Rights Reserved</copyright>
+  <license>Dual GNU/GPL and Commercial</license>
+  <version>1.0.4</version>
+  <description>JoomlaXTC Mozaix template</description>
+  <files>
+    <filename>component.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>templateDetails.xml</filename>
+    <folder>css</folder>
+    <folder>fonts</folder>
+    <folder>html</folder>
+    <folder>images</folder>
+    <folder>img</folder>
+    <folder>js</folder>
+    <folder>language</folder>
+    <folder>layouts</folder>
+    <folder>parameters</folder>
+    <folder>XTC</folder>
+  </files>
+  <positions>
+    <position>banner</position>
+    <position>bottom1</position>
+    <position>bottom2</position>
+    <position>bottom3</position>
+    <position>bottom4</position>
+    <position>bottom5</position>
+    <position>bottom6</position>
+    <position>breadcrumb</position>
+    <position>debug</position>
+    <position>footer</position>
+    <position>inset</position>
+    <position>left2</position>
+    <position>left4</position>
+    <position>left5</position>
+    <position>left6</position>
+    <position>left7</position>
+    <position>left8</position>
+    <position>left</position>
+    <position>menubarleft</position>
+    <position>menuright1</position>
+    <position>menuright2</position>
+    <position>mobile1</position>
+    <position>mobile2</position>
+    <position>mobile3</position>
+    <position>mobile4</position>
+    <position>mobilefooter</position>
+    <position>newsflash</position>
+    <position>right2</position>
+    <position>right4</position>
+    <position>right5</position>
+    <position>right6</position>
+    <position>right7</position>
+    <position>right8</position>
+    <position>right</position>
+    <position>sidebarleft</position>
+    <position>sidebarright</position>
+    <position>user10</position>
+    <position>user11</position>
+    <position>user12</position>
+    <position>user13</position>
+    <position>user14</position>
+    <position>user15</position>
+    <position>user16</position>
+    <position>user17</position>
+    <position>user18</position>
+    <position>user19</position>
+    <position>user1</position>
+    <position>user20</position>
+    <position>user21</position>
+    <position>user22</position>
+    <position>user23</position>
+    <position>user24</position>
+    <position>user25</position>
+    <position>user26</position>
+    <position>user27</position>
+    <position>user28</position>
+    <position>user29</position>
+    <position>user2</position>
+    <position>user30</position>
+    <position>user31</position>
+    <position>user32</position>
+    <position>user33</position>
+    <position>user34</position>
+    <position>user35</position>
+    <position>user36</position>
+    <position>user37</position>
+    <position>user38</position>
+    <position>user39</position>
+    <position>user3</position>
+    <position>user40</position>
+    <position>user41</position>
+    <position>user42</position>
+    <position>user4</position>
+    <position>user5</position>
+    <position>user6</position>
+    <position>user7</position>
+    <position>user8</position>
+    <position>user9</position>
+    <position>showcase1</position>
+    <position>showcase2</position>
+    <position>showcase3</position>
+    <position>showcase4</position>
+    <position>showcase5</position>
+    <position>showcase6</position>
+    <position>topright1</position>
+    <position>topright2</position>
+    <position>topleft1</position>
+    <position>topleft2</position>
+    <position>legals</position>
+  </positions>
+  <languages folder="language">
+    <language tag="en-GB">en-GB.tpl_mozaix.ini</language>
+    <language tag="en-GB">en-GB.tpl_mozaix.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params" addfieldpath="/templates/mozaix/XTC/elements">
+      <fieldset name="basic" label="Global Settings">
+        <field name="templateLayout" type="layoutlist" default="default" label="Default Layout" description="Select a default template layout"/>
+        <field name="mobiledetect" type="radio" class="btn-group" default="1" label="Mobile Device Detection" description="Enables automatic layout change for mobile devices.">
+          <option value="1">Enabled</option>
+          <option value="0">Disabled</option>
+        </field>
+      </fieldset>
+      <fieldset name="layouts" label="Layout Settings">
+        <field type="layoutgroups" label="Layout Parameters"/>
+      </fieldset>
+      <fieldset name="grids" label="Grid Settings">
+        <field type="stylegroups" group="grid" label="Grid Parameters"/>
+      </fieldset>
+      <fieldset name="styles" label="Style Settings">
+        <field type="stylegroups" group="style" label="Colors &amp; Graphics"/>
+      </fieldset>
+      <fieldset name="typos" label="Typography Settings">
+        <field type="stylegroups" group="typo" label="Typography Parameters"/>
+      </fieldset>
+      <fieldset name="advanced" label="Advanced Settings">
+        <field type="xtcparameters" label="System Parameters" description="System parameters for the template framework"/>
+        <field name="jquery" type="radio" class="btn-group" default="1" label="include jQuery" description="Includes jQuery library (no conflict mode).">
+          <option value="1">On</option>
+          <option value="0">Off</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>

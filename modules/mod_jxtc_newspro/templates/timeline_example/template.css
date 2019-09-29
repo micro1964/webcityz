@@ -1,0 +1,83 @@
+.c-outer {
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #333;
+	float: right;
+	margin: 0 -12px 0 22px;
+}
+.c-inner {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: #333;
+	margin: 5px 0 0 5px;
+}
+.graphwrap {
+	border-right: 1px solid #333;
+	padding: 80px 0;
+	float: left;
+	width: 20%;
+}
+.graphwrap h2 {
+	font-weight: 400 !important;
+	font-size: 15px;
+	line-height: 15px !important;
+	margin: 0 !important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: right;
+	float: right;
+}
+.graphtextwrap {
+	float: left;
+	width: 60%;
+	padding: 40px 0 0 40px;
+}
+.graphtextwrap p {
+	color: #999;
+	margin: 80px 0 0 32px;
+	font-size: 14px;
+}
+.graphouterwrap {
+	float: left;
+}
+.hex-wrap {
+	margin-top: 136px;
+}
+
+@media(max-width:1300px) {
+.graphtextwrap p {
+	font-size: 12px;
+}
+.graphwrap h3 {
+	font-size: 11px;
+}
+.joomnews .row-2 .graphouterwrap, .joomnews .row-3 .graphouterwrap, .joomnews .row-4 .graphouterwrap, .joomnews .row-5 .graphouterwrap, .joomnews .row-6 .graphouterwrap {
+	margin-top: -60px;
+}
+}
+
+@media(max-width:1000px) {
+.graphtextwrap {
+	width: 55%;
+}
+.graphwrap {
+	width: 35%;
+}
+}
+
+@media(max-width:580px) {
+.graphwrap h2 {
+	font-size: 16px !important;
+}
+}
+
+@media(max-width:480px) {
+.graphwrap h2 {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+}

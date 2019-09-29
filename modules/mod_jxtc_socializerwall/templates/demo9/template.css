@@ -1,0 +1,162 @@
+/* Sample CSS file */
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 10px 2px 10px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px 0 2px 10px ;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+
+.fivehundredpx {}
+.aboutme {}
+.amazon {}
+.aol {}
+.appstore {}
+.apple {}
+.bebo {}
+.behance {}
+.bing {}
+.blip {}
+.blogger {}
+.coroflot {}
+.daytum {}
+.delicious {}
+.designbump {}
+.designfloat {}
+.deviantart {}
+.digg {}
+.dribble {}
+.drupal {}
+.email {} 
+.ebay {}
+.etsy {}
+.facebook {}
+.feedburner {}
+.flickr {}
+.foodspotting {}
+.forrst {}
+.foursquare {}
+.friendsfeed {}
+.friendstar {}
+.gdgt{}
+.github {}
+.googleplus {}
+.googletalk {}
+.grooveshark {}
+.hyves {}
+.icondock {}
+.icq {}
+.identica {}
+.imessage {}
+.instagram {}
+.itunes {}
+.lastfm {}
+.linkedin {}
+.meetup {}
+.metacafe {}
+.mrwong {}
+.msn{}
+.myspace {}
+.newsvine {}
+.paypal {}
+.photobucket {}
+.picasa {}
+.pinterest {}
+.podcast {}
+.qik {}
+.quora {}
+.reddit {}
+.retweet {}
+.rss {}
+.scribd {}
+.sharethis {}
+.skype {}
+.slashdot {}
+.slideshare {}
+.smugmug {}
+.soundcloud {}
+.spotify {}
+.squidoo {}
+.stackoverflow {}
+.stumbleupon {}
+.technorati {}
+.tumblr {}
+.twitterbird {}
+.twitter {}
+.viddler {}
+.vimeo {}
+.virb {}
+.www {}
+.wikipedia {}
+.windows {}
+.wordpress {}
+.xing {}
+.yahoobuzz {}
+.yahoo {}
+.yelp {}
+.youtube {}
+
+
+.animated {
+  -webkit-animation-fill-mode: fowards;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: 0.5s ease;
+  -moz-animation: 0.5s ease;
+  -ms-animation: 0.5s ease;
+  -o-animation: 0.5s ease;
+  animation: 0.5s ease;
+}
+
+.animated.hinge {
+  -webkit-animation: 2s ease;
+  -moz-animation: 2s ease;
+  -ms-animation: 2s ease;
+  -o-animation: 2s ease;
+  animation: 2s ease;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); } 
+  50% { -webkit-transform: scale(1.5); }
+    100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes pulse {
+    0% { -moz-transform: scale(1); }  
+  50% { -moz-transform: scale(1.5); }
+    100% { -moz-transform: scale(1); }
+}
+@-ms-keyframes pulse {
+    0% { -ms-transform: scale(1); } 
+  50% { -ms-transform: scale(1.5); }
+    100% { -ms-transform: scale(1); }
+}
+@-o-keyframes pulse {
+    0% { -o-transform: scale(1); }  
+  50% { -o-transform: scale(1.5); }
+    100% { -o-transform: scale(1); }
+}
+@keyframes pulse {
+    0% { transform: scale(1); } 
+  50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+.pulse:hover{
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -ms-animation-name: pulse;
+  -o-animation-name: pulse;
+  animation-name: pulse;
+}

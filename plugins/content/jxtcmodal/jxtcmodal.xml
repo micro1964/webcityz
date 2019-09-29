@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" version="1.6.0" method="upgrade">
+  <name>JoomlaXTC Modal plugin</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2011-07-26</creationDate>
+	<copyright>Copyright (C) 2009-2011 Monev Software LLC. All rights reserved.</copyright>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.0.1</version>
+  <description>JoomlaXTC Modal plugin v1.0.1 - Visit www.joomlaxtc.com documents area for help.</description>
+  <files>
+    <filename plugin="jxtcmodal">jxtcmodal.php</filename>
+  </files>
+  <config>
+	  <fields>
+	  	<fieldset>
+				<field type="spacer" label="Plugin Tag works exactly as &amp;lt;a&amp;gt; &amp;lt;/a&amp;gt; HTML tags, use modal tags exactly the same: {modal} {/modal}" />
+			</fieldset>
+	  </fields>
+	</config>
+</extension>

@@ -1,0 +1,206 @@
+/* Sample CSS file */
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 10px 2px 10px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px 0 2px 10px ;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+.fivehundredpx {}
+.aboutme {}
+.amazon {color:#ebab22!important;}
+.aol {}
+.appstore {}
+.apple {}
+.bebo {color:#9b0004!important;}
+.behance {}
+.bing {}
+.blip {color:#e8292d!important;}
+.blogger {}
+.coroflot {}
+.daytum {}
+.delicious {color:#0010de!important;}
+.designbump {}
+.designfloat {}
+.deviantart {}
+.digg {}
+.dribble {}
+.drupal {}
+.email {} 
+.ebay {}
+.etsy {}
+.facebook {color:#6d84b4!important;}
+.feedburner {}
+.flickr {}
+.foodspotting {}
+.forrst {}
+.foursquare {}
+.friendsfeed {}
+.friendstar {}
+.gdgt{}
+.github {}
+.googleplus {}
+.googletalk {}
+.grooveshark {}
+.hyves {}
+.icondock {}
+.icq {}
+.identica {}
+.imessage {}
+.instagram {}
+.itunes {}
+.lastfm {}
+.linkedin {}
+.meetup {}
+.metacafe {}
+.mrwong {}
+.msn{}
+.myspace {}
+.newsvine {}
+.paypal {}
+.photobucket {}
+.picasa {}
+.pinterest {}
+.podcast {}
+.qik {}
+.quora {}
+.reddit {}
+.retweet {}
+.rss {}
+.scribd {}
+.sharethis {}
+.skype {}
+.slashdot {}
+.slideshare {}
+.smugmug {}
+.soundcloud {}
+.spotify {}
+.squidoo {}
+.stackoverflow {}
+.stumbleupon {}
+.technorati {}
+.tumblr {}
+.twitterbird {}
+.twitter {}
+.viddler {}
+.vimeo {}
+.virb {}
+.www {}
+.wikipedia {}
+.windows {}
+.wordpress {}
+.xing {}
+.yahoobuzz {}
+.yahoo {}
+.yelp {}
+.youtube {}
+.jxtc-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.jxtc-grid:after,
+.jxtc-item:before {
+	content: '';
+    display: table;
+}
+
+.jxtc-grid:after {
+	clear: both;
+}
+
+.jxtc-grid li {
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	
+}
+
+.jxtc-item {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: default;
+}
+
+
+.jxtc-info{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+}
+
+.jxtc-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.jxtc-info .jxtc-info-back {
+	-webkit-transform: rotate3d(0,1,0,180deg);
+	-moz-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+	margin-top:-40px;
+	background: #000;
+}
+
+
+.jxtc-info h3 {
+	color: #fff!important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin: 0 15px;
+	padding: 20px 0 0 0;
+	height: 90px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+
+.jxtc-item:hover .jxtc-info-wrap {
+	box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+.jxtc-item:hover .jxtc-info {
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-moz-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
+}

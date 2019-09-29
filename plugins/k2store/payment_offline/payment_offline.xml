@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" method="upgrade" group="k2store">
+	<name>plg_k2store_offline_payments</name>
+	<version>1.0</version>
+	<creationDate>Jan 2012</creationDate>
+	<author>Weblogicx India</author>
+	<authorEmail>support@k2store.org</authorEmail>
+	<authorUrl>http://k2store.org</authorUrl>
+	<copyright>2010 Weblogicx India Private Limited</copyright>
+	<license>GNU General Public License v2</license>
+	<description>K2STORE_PLUGINDESC</description>
+	
+	<files>
+		<filename plugin="payment_offline">payment_offline.php</filename>
+		<filename>index.html</filename>
+		<folder>payment_offline</folder>	
+	</files>	
+	
+<config>
+	<fields name="params">
+  	  <fieldset name="basic">
+  	  <field name="display_name" type="text" size="30" default="" label="k2store_plugin_display_name" description="k2store_plugin_display_name_desc"/>
+       <field name="enable_cod" type="radio" default="1" label="k2store_offline_accept_cod" description="k2store_offline_accept_cod_desc">
+		  <option value="0">K2STORE_NO</option>
+		  <option value="1">K2STORE_YES</option>
+		</field>
+		<field name="enable_check" type="radio" default="1" label="k2store_offline_accept_checks" description="k2store_offline_accept_checks_desc">
+		  <option value="0">K2STORE_NO</option>
+		  <option value="1">K2STORE_YES</option>
+		</field>
+		<field name="enable_moneyorder" type="radio" default="1" label="k2store_offline_accept_money_orders" description="k2store_offline_accept_money_orders_desc">
+		  <option value="0">K2STORE_NO</option>
+		  <option value="1">K2STORE_YES</option>
+		</field>
+		<field name="enable_wire" type="radio" default="1" label="k2store_offline_accept_wire" description="k2store_offline_accept_wire_desc">
+		  <option value="0">K2STORE_NO</option>
+		  <option value="1">K2STORE_YES</option>
+		</field>
+		<field name="enable_other" type="radio" default="1" label="k2store_offline_accept_other" description="k2store_offline_accept_other">
+		  <option value="0">K2STORE_NO</option>
+		  <option value="1">K2STORE_YES</option>
+		</field>
+		<field name="articleid" type="text" size="10" default="" label="k2store_offline_article_id" description="k2store_offline_article_id_desc"/>
+	</fieldset>
+  </fields>	
+</config>			
+</extension>

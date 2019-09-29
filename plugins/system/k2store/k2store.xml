@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - K2Store</name>
+	<author>Ramesh Elamathi</author>
+	<creationDate>Jan 2012</creationDate>
+	<copyright>(C) 2010-2015 Weblogicx India Private Limited</copyright>
+	<license>http://www.gnu.org/copyleft/lgpl.html GNU/LGPL</license>
+	<authorEmail>support@k2store.org</authorEmail>
+	<authorUrl>www.k2store.org</authorUrl>
+	<version>1.0</version>
+    <description>System plugin that loads the required Javascript and other files required for K2Store.</description>
+	<files>
+		<filename plugin="k2store">k2store.php</filename>
+		<filename>index.html</filename>				
+	</files>
+</extension>

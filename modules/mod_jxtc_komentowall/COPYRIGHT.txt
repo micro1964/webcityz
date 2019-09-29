@@ -1,0 +1,31 @@
+ COPYRIGHT NOTICE:
+
+ ALL FILES ARE COPYRIGHT (C) 2008-2012 MONEV SOFTWARE LLC (EXCEPT WHERE NOTED), ALL RIGHTS RESERVED.
+
+ Please notice some files are subject to GPL license and are noted as such in their source code.
+
+ Some bits of code were developed by the following people:
+ 
+ CSS3 Accordion / CSS Hover Panel / CSS 3 Hover Effects 
+ Written by Mary Lou
+ http://tympanus.net/
+
+ CSS 3 Hover Effects
+ Written by Alessio Atzeni
+ http://www.alessioatzeni.com
+
+ CSS3 Tabs Demo
+ Written by Ring Wing
+ Website: http://fiohistory.com/ 
+
+ 
+ For files not identified as licensed under GPL:
+
+ You shall not modify, copy, duplicate, reproduce, sell, license or
+ sublicense the Software, or transfer or convey the Software or
+ any right in the Software to anyone else without the prior
+ written consent of Monev Software LLC; provided that Licensee may make
+ one copy of the Software for backup or archival purposes.
+
+Monev Software LLC
+www.joomlaxtc.com

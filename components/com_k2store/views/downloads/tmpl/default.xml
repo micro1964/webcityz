@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Downloads">
+		<message>
+			<![CDATA[K2STORE_LIST_ATTACHMENT_DOWNLOADS]]>
+		</message>
+	</layout>
+	
+	<state>
+		<name>K2STORE_LIST_ATTACHMENT_DOWNLOADS_LAYOUT</name>
+		<description>K2STORE_LIST_ATTACHMENT_DOWNLOADS_LAYOUT_DESC</description>
+		<params>
+		</params>
+	</state>
+		
+</metadata>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>Default</name>
+	<description>A template layout based on regions</description>
+   <fields name="params">
+	<fieldset name="basic">
+		 <field name="stickyheader" type="list" default="sticky" label="Make Header Sticky" description="Make Header Sticky">
+                <option value="nosticky">No</option>
+                <option value="sticky">Yes</option>
+               </field>
+			   <field name="menustyle" type="list" default="suckerfish" label="Menu Style" description="Main Menu Drop Down Style: Suckerfish,Dualfish,Dropline, or None.">
+                <option value=" suckerfish">Suckerfish</option>
+                <option value=" dualfish">Dualfish</option>
+		<option value=" dropline">Dropline</option>
+                <option value="">None</option>
+				 </field>
+			<field name="ddspacer" type="text" default="100" label="Menu Dropdown Position" description="Dropdown position from top of site"/>	 
+		<field name="wrapperwidth" type="text" default="1440" label="Main Wrap Width" description="Change The Width Of Main Wrapper"/>
+		<field name="wrappergutter" type="text" default="0" label="Outer Wrapper" description="Set Width Of Outside Wrapper"/>
+		<field name="regionseparatorwidth" type="text" default="3.727865" label="Separator between regions" description="in pixels"/>
+		<field name="modulepacerheight" type="text" default="30" label="Separator between modules vertical" description="in pixels"/>
+		<field name="regioncfg" type="text" default="1,2,3,4,5,6,7,8,9" label="Region Order" description="Choose the Region display order from top to bottom, enter region numbers 1 thru 5 separated by comma."/>
+                <field name="mhidedefault" type="text" default="885" label="Default Mobile Hide Width" description="Choose the default width in PX to hide the Region display for Mobile Devices."/>
+                <field name="hwleft_right_pad" type="text" default="0" label="Header Padding Left And Right" description="Header Padding Left And Right"/> 
+                <field name="hwtop_bottom_pad" type="text" default="0" label="Header Padding Top And Bottom" description="Header Padding Top And Bottom"/>
+			
+                <field name="r1top_bottom_pad" type="text" default="15" label="Region 1 Padding Top And Bottom" description="Region 1 Padding Top And Bottom"/>
+		<field name="r1left_right_pad" type="text" default="0" label="Region 1 Padding Left And Right" description="Region 1 Padding Left And Right"/>  
+		 <field name="r1mobile" type="list" default="none" label="Hide Region 1 at Mobile Level" description="Hide the region view for Mobile Device Level">
+                <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+                <field name="r2top_bottom_pad" type="text" default="0" label="Region 2 Padding Top And Bottom" description="Region 2 Padding Top And Bottom"/>
+		<field name="r2left_right_pad" type="text" default="0" label="Region 2 Padding Left And Right" description="Region 2 Padding Left And Right"/>  
+		<field name="r2mobile" type="list" default="visible" label="Hide Region 2 at Mobile Level" description="Hide the region view for Mobile Device Level">
+                <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+			   
+                <field name="r3top_bottom_pad" type="text" default="30" label="Region 3 Padding Top And Bottom" description="Region 3 Padding Top And Bottom"/>
+		<field name="r3left_right_pad" type="text" default="0" label="Region 3 Padding Left And Right" description="Region 3 Padding Left And Right"/>  
+		<field name="r3com_pad" type="text" default="30" label="Region 3 Component Wrap Padding" description="Region 3 Component Padding"/> 
+		<field name="r3mobile" type="list" default="visible" label="Hide Region 3 at Mobile Level" description="Hide the region view for Mobile Device Level">
+                <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+			
+                <field name="r4top_bottom_pad" type="text" default="0" label="Region 4 Padding Top And Bottom" description="Region 4 Padding Top And Bottom"/>
+		<field name="r4left_right_pad" type="text" default="0" label="Region 4 Padding Left And Right" description="Region 4 Padding Left And Right"/>  
+		<field name="r4mobile" type="list" default="visible" label="Hide Region 4 at Mobile Level" description="Hide the region view for Mobile Device Level">
+               <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+			   
+                <field name="r5top_bottom_pad" type="text" default="0" label="Region 5 Padding Top And Bottom" description="Region 5 Padding Top And Bottom"/>
+		<field name="r5left_right_pad" type="text" default="0" label="Region 5 Padding Left And Right" description="Region 5 Padding Left And Right"/>  
+		<field name="r5mobile" type="list" default="visible" label="Hide Region 5 at Mobile Level" description="Hide the region view for Mobile Device Level">
+                <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+			   
+                <field name="r6top_bottom_pad" type="text" default="0" label="Region 6 Padding Top And Bottom" description="Region 6 Padding Top And Bottom"/>
+		<field name="r6left_right_pad" type="text" default="0" label="Region 6 Padding Left And Right" description="Region 6 Padding Left And Right"/>  
+		<field name="r6mobile" type="list" default="visible" label="Hide Region 6 at Mobile Level" description="Hide the region view for Mobile Device Level">
+               <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+			   
+                <field name="r7top_bottom_pad" type="text" default="0" label="Region 7 Padding Top And Bottom" description="Region 7 Padding Top And Bottom"/>
+		<field name="r7left_right_pad" type="text" default="0" label="Region 7 Padding Left And Right" description="Region 7 Padding Left And Right"/>  
+		<field name="r7mobile" type="list" default="visible" label="Hide Region 7 at Mobile Level" description="Hide the region view for Mobile Device Level">
+               <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+			   
+                <field name="r8top_bottom_pad" type="text" default="0" label="Region 8 Padding Top And Bottom" description="Region 8 Padding Top And Bottom"/>
+		<field name="r8left_right_pad" type="text" default="0" label="Region 8 Padding Left And Right" description="Region 8 Padding Left And Right"/>  
+		<field name="r8mobile" type="list" default="0" label="Hide Region 8 at Mobile Level" description="Hide the region view for Mobile Device Level">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+               </field>
+                <field name="r9top_bottom_pad" type="text" default="0" label="Region 9 Padding Top And Bottom" description="Region 9 Padding Top And Bottom"/>
+		<field name="r9left_right_pad" type="text" default="0" label="Region 9 Padding Left And Right" description="Region 9 Padding Left And Right"/> 
+		<field name="r9mobile" type="list" default="visible" label="Hide Region 9 at Mobile Level" description="Hide the region view for Mobile Device Level">
+               <option value="visible">No</option>
+                <option value="none">Yes</option>
+               </field>
+                 
+                <field name="fwleft_right_pad" type="text" default="15" label="Footer Padding Top And Bottom" description="Footer 9 Padding Left And Right"/> 
+                <field name="fwtop_bottom_pad" type="text" default="0" label="Footer Padding Top And Bottom" description="Footer Padding Top And Bottom"/>       
+                
+                
+		 <field name="leftwidth" type="list" default="3" label="Left Width" description="Left Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="rightwidth" type="list" default="3" label="Right Width" description="Right Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+               
+		 <field name="left2width" type="list" default="8" label="Left 2 Width" description="Left 2 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="right2width" type="list" default="3" label="Right 2 Width" description="Right 2 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+		 <field name="left4width" type="list" default="3" label="Left 4 Width" description="Left 4 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="right4width" type="list" default="3" label="Right 4 Width" description="Right 4 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="left5width" type="list" default="4" label="Left 5 Width" description="Left 5 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="right5width" type="list" default="3" label="Right 5 Width" description="Right 5 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="left6width" type="list" default="6" label="Left 6 Width" description="Left 6 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="right6width" type="list" default="6" label="Right 6 Width" description="Right 6 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="left7width" type="list" default="3" label="Left 7 Width" description="Left 7 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="right7width" type="list" default="3" label="Right 7 Width" description="Right 7 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+           
+		 <field name="left8width" type="list" default="6" label="Left 8 Width" description="Left 8 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+
+		 <field name="right8width" type="list" default="6" label="Right 8 Width" description="Right 8 Width">
+                <option value="1">Span 1</option>
+                <option value="2">Span 2</option>
+		<option value="3">Span 3</option>
+                <option value="4">Span 4</option>
+                <option value="6">Span 6</option>
+                <option value="8">Span 8</option>
+                <option value="9">Span 9</option>
+                <option value="10">Span 10</option>
+                <option value="11">Span 11</option>
+                <option value="12">Span 12</option>
+               </field>
+</fieldset>
+	</fields>
+</form>

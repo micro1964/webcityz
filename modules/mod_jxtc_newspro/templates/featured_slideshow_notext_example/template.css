@@ -1,0 +1,47 @@
+/* Default CSS */
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+/* Slideshow 1 CSS */
+.npslideshowf2 img {
+	max-width: 100%;
+	width: 100%;
+	min-width: 1%;
+}
+.fpslide2_pages {
+	position: absolute;
+	margin-top: -60px;
+	left: 47%;
+}
+.pagebutton, .pagebutton.current {
+	background: transparent;
+	padding: 0;
+}
+.pagebutton.current:before {
+	content: '●';
+	color: #fff;
+	font-size: 36px;
+	display: block;
+}
+.pagebutton:before {
+	content: '○';
+	color: #fff;
+	font-size: 36px;
+	display: block;
+}
+.pagebutton span {
+	display: none;
+}

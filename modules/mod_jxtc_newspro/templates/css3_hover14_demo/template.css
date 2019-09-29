@@ -1,0 +1,107 @@
+.jxtc_newspro_tmp14 li{    width: 230px;
+    height: 230px;
+    border: 10px solid #f6f6f6;
+    background: #fff;
+    margin-left:-48px;
+    position:relative;
+    }
+
+.jxtc_newspro_tmp14 li a{
+    text-align: left;
+    width: 230px;
+    height: 230px;
+    color: #333;
+    position:absolute;
+    top:0;
+    overflow:hidden;
+}
+
+.jxtc_newspro_tmp14-subsub{width:100%;height:100%;
+ }
+.jxtc_newspro_tmp14 li:hover{
+    border-color: #333;
+}
+
+.jxtc_newspro_tmp14 li{
+    overflow: hidden;
+    position: relative;
+    float:left;
+      -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+	z-index:12;
+}
+.jxtc_newspro_tmp14 li:last-child{
+    margin-right: 0px;
+}
+.jxtc_newspro_tmp14 li a{
+    display: block;
+}
+
+.jxtc_newspro_tmp14-main{
+     position: absolute;opacity:0;
+	 
+}
+.jxtc_newspro_tmp14-subsub{ position: absolute;z-index:1; -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+   
+}
+.jxtc_newspro_tmp14 li:hover{
+    z-index: 999;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.jxtc_newspro_tmp14 li:hover .jxtc_newspro_tmp14-main{
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+width: 100%;opacity: 0.8;color: #fff;z-index:10;background:#000;padding: 12px;font-size: 14px;top: 50%;color: #fff;
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        -webkit-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -moz-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -ms-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+			

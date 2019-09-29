@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <name>Style 6</name>
+  <description>This is style #6 - Style 6 Parameters are set in the parameters/style6.xml - The stylesheet style6.css can be found in the template css folder.  For more information on editing the parameters and the css please refer to the X-Framework user guide.</description>
+  <fields name="params">
+	<fieldset name="basic">
+     <field type="xspacer" title="BODY"/>
+	 
+	     <field name="bodybg" type="colorpicker" default="#f1f1f1" label="Background Color" description="Body Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+		 	
+    <field name="bodybgimg" type="templateimage" directory="backgrounds" default="" label=" Background Image" description="Full Website Background Image"/>
+    <field name="bodybgposition" type="text" default="top center repeat" label="Image Position" description="Set Position of Image : example : no-repeat"/>
+
+	   <field type="xspacer" title="STYLE COLOR SCHEME"/>	
+	<field name="basecolor1" type="colorpicker" default="#556270" label="Base Color 1" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	<field name="basecolor2" type="colorpicker" default="#4ecdc4" label="Base Color 2" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="basecolor3" type="colorpicker" default="#b3db5a" label="Base Color 3" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	<field name="basecolor4" type="colorpicker" default="#ff6b6b" label="Base Color 4" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>  
+	<field name="basecolor5" type="colorpicker" default="#c44d58" label="Base Color 5" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>  
+	<field name="basecolor6" type="colorpicker" default="#d38157" label="Base Color 6" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/> 
+	<field name="basecolor7" type="colorpicker" default="#111" label="Base Color 7" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>  
+	<field name="basecolor8" type="colorpicker" default="#fff" label="Base Color 8" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>  
+	
+    <field type="xspacer" title="HEADER"/>	
+	<field name="headerwrap" type="colorpicker" default="#f1f1f1" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="headerwrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="headerwrapposition" type="text" default="repeat-x bottom left" label="Wrap Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="header" type="colorpicker" default="#fff" label="Background Color" description="Background Color: Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="headerimage" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for Header"/>
+    <field name="headerposition" type="text" default="" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>
+    <field name="logoImg" type="templateimage" directory="logos" default="logo-s6.png" label="Website Logo Image" description="Select a Logo."/>
+    <field name="logowidth" type="text" default="162" label="Logo Width" description="Set logo width without px"/>
+    <field name="logoheight" type="text" default="34" label="Logo Height" description="Set logo height without px"/>
+	<field name="logopadding" type="text" default="12px 0 0 32px" label="Logo Padding" description="Set distance from menu edges to logo edges"/>
+	
+	  <field name="logoImg2" type="templateimage" directory="logos" default="mobile_logo.png" label="Website Mobile Logo Image" description="Select a Logo."/>
+    <field name="logowidth2" type="text" default="93" label="Logo Mobile Width" description="Set logo width without px"/>
+    <field name="logoheight2" type="text" default="11" label="Logo Mobile Height" description="Set logo height without px"/>
+	<field name="logopadding2" type="text" default="20px 0 20px 32px" label="Logo Mobile Padding" description="Set distance from menu edges to logo edges"/>
+	
+	 <field type="xspacer" title="MENU"/>
+
+    <!-- menu background div-->
+    <field name="toplevelwrapbgcolor" type="colorpicker" default="transparent" label="Wrap Background Color" description="Wrap Background color for the Main Menu Wrap. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	<field name="toplevelbgcolor" type="colorpicker" default="transparent" label="Background Color" description="Background color for the Main Menu. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+  
+	<!-- menu background  a tag-->
+	<field name="toplevelabgcolor" type="colorpicker" default="transparent" label="Item Background Color" description="Background color for each menu item link. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	<field name="toplevelahoverbgcolor" type="colorpicker" default="" label="Item Hover Background Color" description="Background Hover color for each menu item link. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/> 
+	<field name="toplevelaactivebgcolor" type="colorpicker" default="transparent" label="Item Active Background Color" description="Background Active color for each menu item link.Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	<field name="topleveltxtcolor" type="colorpicker" default="#333" label="Color" description="Font Color for Main Menu"/>	
+<field name="topleveltxthovercolor" type="colorpicker" default="#fff" label="Hover Color" description="Hover Font Color for Main Menu"/>
+<field name="topleveltxtactivecolor" type="colorpicker" default="" label="Active Color" description="Active Font Color for Main Menus"/>	
+   
+
+	<field type="xspacer" title="DROP DOWN LEVEL"/>
+  
+    <field name="droplevelbgcolor" type="colorpicker" default="#111" label="Background Color" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+
+    
+    <field name="droplevelabgcolor" type="colorpicker" default="transparent" label="Item Background Color" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	
+	<field name="droplevelahoverbgcolor" type="colorpicker" default="rgba(0,0,0,0.05)" label="Item Hover Background Color" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	
+	    <field name="droplevelaactivebgcolor" type="colorpicker" default="" label="Item Active Background Color" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	
+    <field name="dropfont_color" type="colorpicker" default="#fff" label="Color" description="Font Color for Drop-down Menus"/>
+    	
+    <field name="dropfonthover_color" type="colorpicker" default="#f1f1f1" label="Hover Color" description="Font Color for the Drop Down Menu when mouse hover"/>  
+	
+    <field name="dropfontactive_color" type="colorpicker" default="#f1f1f1" label="Active Color" description="Font Color for the Drop Down Menus when selected"/>
+	<field type="xspacer" title="REGIONS"/>
+	
+
+    <field type="xspacer" title="Region 1"/>
+	
+	<field name="region1wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region1wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region1wrapposition" type="text" default="center -380px no-repeat" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>	
+	<field name="region1" type="colorpicker" default="#333" label="Region 1 Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region1image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px."/>
+    <field name="region1position" type="text" default="bottom center no repeat" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	
+	
+    <field type="xspacer" title="Region 2"/>	
+	<field name="region2wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region2wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region2wrapposition" type="text" default="top center no-repeat" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region2" type="colorpicker" default="transparent" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region2image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px. "/>
+    <field name="region2position" type="text" default="" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	
+    <field type="xspacer" title="Region 3"/>
+	<field name="region3wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region3wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region3wrapposition" type="text" default="repeat-x bottom left" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region3" type="colorpicker" default="#FFFFFF" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region3image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px. "/>
+    <field name="region3position" type="text" default="" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region3com" type="colorpicker" default="#FFFFFF" label="Component Wrap Background Color" description="Background Color for the Component. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field type="xspacer" title="Region 4"/>	
+	<field name="region4wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region4wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region4wrapposition" type="text" default="top repeat-x" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region4" type="colorpicker" default="transparent" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region4image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px. "/>
+    <field name="region4position" type="text" default="repeat-x" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	
+    <field type="xspacer" title="Region 5"/>
+	<field name="region5wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region5wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region5wrapposition" type="text" default="repeat-x top left" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region5" type="colorpicker" default="transparent" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region5image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px."/>
+    <field name="region5position" type="text" default="" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>	
+	
+ <field type="xspacer" title="Region 6"/>
+	<field name="region6wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region6wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region6wrapposition" type="text" default="repeat-x top left" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region6" type="colorpicker" default="transparent" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region6image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px."/>
+    <field name="region6position" type="text" default="bottom repeat-x" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>	
+	
+	
+	 <field type="xspacer" title="Region 7"/>
+	<field name="region7wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region7wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region7wrapposition" type="text" default="top center no-repeat" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region7" type="colorpicker" default="transparent" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region7image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px."/>
+    <field name="region7position" type="text" default="" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>	
+	
+	
+	 <field type="xspacer" title="Region 8"/>
+	<field name="region8wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region8wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region8wrapposition" type="text" default="repeat-x top left" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region8" type="colorpicker" default="#222" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region8image" type="templateimage" directory="backgrounds" default="" label="Region 8 Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px."/>
+    <field name="region8position" type="text" default="" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>	
+	
+	
+	 <field type="xspacer" title="Region 9"/>
+	<field name="region9wrap" type="colorpicker" default="transparent" label="Wrap Background Color" description="Outer Full Width Wrap Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region9wrapimage" type="templateimage" directory="backgrounds" default="" label="Wrap Background Image" description="Outer Full Width Wrap Background Image"/>
+    <field name="region9wrapposition" type="text" default="top center no-repeat" label="Wrap Background Image Position" description="Set Position of Image : example : no-repeat"/>
+	<field name="region9" type="colorpicker" default="#222" label="Background Color" description="Background Color for the Inner Wrap of the website set in the Grid Parameters: Example 960px. Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+    <field name="region9image" type="templateimage" directory="backgrounds" default="" label="Background Image" description="Background Image for the Inner Wrap of the website set in the Grid Parameters: Example 960px."/>
+    <field name="region9position" type="text" default="" label="Background Image Position" description="Set Position of Image : example : no-repeat"/>	
+	
+	 <field type="xspacer" title="Footer Wrap"/>	
+	
+	
+	<field name="footer" type="colorpicker" default="" label="Footer Wrapper Background Color" description="Footer Wrapper Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		  	
+	<field name="footerpad" type="colorpicker" default="#111" label="Footer Background Color" description="Footer Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>	  	
+	
+
+    <field type="xspacer" title="MODULE"/>
+	<field name="modbkgcolor" type="colorpicker" default="transparent" label="Background Color" description="Default Module Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>		
+ 
+   
+	<field name="modtitlebkgcolor" type="colorpicker" default="#222" label="Title Background Color" description="Default Module Title Background Color: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>	
+    <field name="modtitleimage" type="templateimage" directory="icons" default="" label="Title Icon" description="Default Module Title Icon Image"/>
+	
+    <field name="modtitlefirstword" type="colorpicker" default="#fff" label="First Word Color" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	<field name="modtitlesecondword" type="colorpicker" default="#3E8EDE" label="Rest Words Color" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	
+    <field type="xspacer" title="TYPOGRAPHY STYLE"/>
+    <field name="body_color" type="colorpicker" default="#777777" label="Body Text Color" description="Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+   
+      <field name="comHead_color" type="colorpicker" default="#6B6B6B" label="Page Title Color" description="Font Color for Component and Menu Title Headings : Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	  
+    <field name="conHead_color" type="colorpicker" default="#FFF" label="Article Title Color" description="Font Color for Content Headings : Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+ 
+    <field name="h1_color" type="colorpicker" default="#3E8EDE" label="H1 Font Color" description="Font Color for H1: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="h2_color" type="colorpicker" default="#333333" label="H2 Font Color" description="Font Color for H2: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="h3_color" type="colorpicker" default="#333333" label="H3 Font Color" description="Font Color for H3: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="h4_color" type="colorpicker" default="#333333" label="H4 Font Color" description="Font Color for H4: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="h5_color" type="colorpicker" default="#333333" label="H5 Font Color" description="Font Color for H5: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="h6_color" type="colorpicker" default="#333333" label="H6 Font Color" description="Font Color for H6: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+	
+    <field name="link_color" type="colorpicker" default="#777777" label="Global Link color" description="Font Color for Link: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="linkhover_color" type="colorpicker" default="#3E8EDE" label="Global Link Hover Color" description="Font Color for Link Hover: Enter Hex or CSS3 RGBA Values Only - Enter transparent for none."/>
+    <field name="linkactive_color" type="colorpicker" default="#777777" label="Global Link Active Color" description="Font Color for Link Active: Enter Hex values only, don't include # hex sybmbol. Enter transparent for none."/>
+    <field name="linkvisited_color" type="colorpicker" default="#777777" label="Global Link Visited Color" description="Font Color for Link Visited: Enter Hex values only, don't include # hex sybmbol. Enter transparent for none."/>
+	
+	
+  </fieldset>
+	</fields>
+</form>

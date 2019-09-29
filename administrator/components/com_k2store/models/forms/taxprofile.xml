@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<form>
+	<fieldset >
+		<field name="taxprofile_id" type="hidden"
+			default="0"
+			label="K2STORE_TAXPROFILE_ID_LABEL"
+			readonly="true"			
+			size="10"
+		/>
+
+		<field name="taxprofile_name" type="text"
+			description="K2STORE_TAXPROFILE_NAME_DESC"
+			label="K2STORE_TAXPROFILE_NAME_LABEL"
+			required="true"	
+			size="30"
+		/>
+		<field name="state" type="list"
+			description="K2STORE_STATUS_DESC"
+			label="K2STORE_STATUS_LABEL"
+		
+			size="1" default="1" >
+			<option value="1">	JPUBLISHED</option>
+			<option value="0">	JUNPUBLISHED</option>
+		</field>
+		
+			
+	</fieldset>
+
+</form>

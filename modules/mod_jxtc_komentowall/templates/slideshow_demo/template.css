@@ -1,0 +1,24 @@
+.legend {
+font-size:12px;
+font-weight:bold;
+color:#333333;
+background-color:#e0e0e0;
+padding:2px 5px 2px 2px;
+border-bottom:1px solid #333333;
+}
+
+.tag {
+padding:2px;
+font-size:10px;font-family:Arial;color:#333333;background-color:#f9f9f9;
+border-bottom:1px solid #333333;
+}
+.komento_ss_main {background:#333;padding:24px;width:95%;}
+.komentowall_ss_avatar {width:40%;float:left;}
+.komento_ss_main img {max-width:100%;}
+.komentowall_ss_comment {width:55%; float:left; margin-left:12px; font-size:10px; color:#ebebeb;}
+.komentowall_ss_comment p {line-height:120%;}
+.komentowall_ss_text {padding-bottom:8px; border-bottom:1px dotted #777777;}
+@media(max-width:620px){
+	.komentowall_ss_avatar {width:100%;float:none;text-align:center;}
+	.komentowall_ss_comment {width:100%; float:none; margin-top:20px;margin-left:0px;}
+	}

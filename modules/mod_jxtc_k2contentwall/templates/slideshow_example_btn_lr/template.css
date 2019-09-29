@@ -1,0 +1,75 @@
+/* Default CSS */
+.legend {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 2px 5px 2px 2px;
+    border-bottom: 1px solid #333;
+}
+
+.tag {
+    padding: 2px;
+    font-size: 10px;
+    font-family: Arial;
+    color: #333;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #333;
+}
+
+/* Slideshow 1 CSS */
+.dnp_slideshow_blr img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.dnp_slideshow_blr_txt {
+    background: #000;
+    padding: 2% 8%;
+}
+
+.dnp_slideshow_blr h2 {
+    color: #fff;
+}
+
+.dnp_slideshow_blr p {
+    color: #fff;
+}
+
+/* Main Area */
+.dnp_slideshow_blr {
+    margin-bottom: 18px;
+}
+
+/* Buttons */
+.dnp_slideshow_blr_btn_left,.dnp_slideshow_blr_btn_right {
+    margin-top: 40%;
+}
+
+.dnp_slideshow_blr_btn_left_mobile {
+    display: none !important;
+}
+
+/* Slideshow 1 Responsive CSS */
+@media(max-width:768px) {
+.dnp_slideshow_blr p {
+    color: #fff;
+    width: 100%;
+}
+
+.dnp_slideshow_blr_btn_left_mobile {
+    display: block;
+    padding-top: 18px;
+    display: inline !important;
+}
+
+.dnp_slideshow_blr_btn_left.span1 {
+    display: none !important;
+}
+
+.dnp_slideshow_blr_btn_right {
+    display: inline !important;
+}
+}
+
+

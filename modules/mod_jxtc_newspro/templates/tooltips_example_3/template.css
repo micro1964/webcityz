@@ -1,0 +1,98 @@
+.legend {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333333;
+}
+.jem_tips img {
+	max-width: 100%;
+	width: 100%;
+}
+/**
+ * CSS3 Tips
+ *
+ * A stylesheet for creating tooltips without using anything other than CSS3.
+ *
+ * created by c.bavota
+ * released under GPL v2
+ *
+ * November 6th, 2013
+ */
+[data-tips] {
+	position: relative;
+	text-decoration: none;
+	cursor: pointer
+}
+[data-tips]:after,  [data-tips]:before {
+	position: absolute;
+	z-index: 100;
+	opacity: 0;
+}
+[data-tips]:after {
+	content: attr(data-tips);
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	background: #222;
+	border-radius: 5px;
+	text-shadow: 0 0 5px #000;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	white-space: nowrap;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+[data-tips]:before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 6px;
+	border-style: solid;
+}
+[data-tips]:hover:after,  [data-tips]:hover:before {
+	opacity: 1;
+}
+/* Left tip */
+[data-tips].left-tip:after, [data-tips].left-tip:before {
+	-webkit-transition: right 0.25s ease-in-out, opacity 0.25s ease-in-out;
+	-moz-transition: right 0.25s ease-in-out, opacity 0.25s ease-in-out;
+	transition: right 0.25s ease-in-out, opacity 0.25s ease-in-out;
+	top: -9999px;
+	right: 96%;
+	margin-right: 12px;
+}
+[data-tips].left-tip:before {
+	border-color: transparent transparent transparent #222;
+	margin-right: 0;
+}
+[data-tips].left-tip:hover:after,  [data-tips].left-tip:hover:before {
+	right: 100%;
+	top: 0;
+}
+[data-tips].left-tip:hover:before {
+	top: 7px;
+}
+div.moduletable.overflowvisible .wallviewbootstrap {
+	overflow: visible!important;
+}
+ @media (min-device-width:1280px;
+) {
+div.moduletable.overflowvisible .wallviewbootstrap {
+overflow:hidden!important;
+}
+}

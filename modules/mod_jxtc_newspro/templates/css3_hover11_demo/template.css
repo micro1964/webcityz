@@ -1,0 +1,186 @@
+.jxtc_newspro_tmp11 li{
+    width: 200px;
+    height: 400px;
+    border: 5px solid #fff;
+    background: #000;
+ }
+
+.jxtc_newspro_tmp11 li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+.jxtc_newspro_tmp11-icon{
+     width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    }
+.jxtc_newspro_tmp11-content{
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+}
+.jxtc_newspro_tmp11-main{
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+    text-transform:uppercase;
+	line-height: 20px;
+}
+
+.jxtc_newspro_tmp11-sub{
+    text-align:center;
+    font-size: 12px;
+    color: #fff;
+    line-height: 14px;
+     padding: 0 12px;
+	font-weight:none;
+}
+.jxtc_newspro_tmp11-subsub{
+    text-align:center;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+}
+.jxtc_newspro_tmp11 li:hover{
+    background-color: #fff;
+}
+
+.jxtc_newspro_tmp11 li:hover .jxtc_newspro_tmp11-main{
+    color: #000;
+   }
+.jxtc_newspro_tmp11 li:hover .jxtc_newspro_tmp11-sub{
+    color: #000;
+   
+}
+
+
+.jxtc_newspro_tmp11 li{
+    overflow: hidden;
+    position: relative;
+    float: left;
+     -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-right: 4px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.jxtc_newspro_tmp11 li:last-child{
+    margin-right: 0px;
+}
+.jxtc_newspro_tmp11 li a{
+    display: block;
+    position: relative;
+}
+.jxtc_newspro_tmp11-icon{
+    position: absolute;
+      -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.jxtc_newspro_tmp11-content{
+    position: absolute;
+}
+.jxtc_newspro_tmp11-main{
+    opacity: 0.8;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+
+}
+
+.jxtc_newspro_tmp11-sub{
+    opacity: 0.8;
+      -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+   transition: all 200ms linear;
+}
+.jxtc_newspro_tmp11-subsub{
+    opacity: 0.8;
+      -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.jxtc_newspro_tmp11 li:hover{
+}
+.jxtc_newspro_tmp11 li:hover .jxtc_newspro_tmp11-icon{
+       -webkit-animation: moveFromTop 400ms ease;
+    -moz-animation: moveFromTop 400ms ease;
+    -ms-animation: moveFromTop 400ms ease;
+}
+.jxtc_newspro_tmp11 li:hover .jxtc_newspro_tmp11-main{
+    -webkit-animation: moveFromTop 300ms ease;
+    -moz-animation: moveFromTop 300ms ease;
+    -ms-animation: moveFromTop 300ms ease;
+}
+.jxtc_newspro_tmp11 li:hover .jxtc_newspro_tmp11-sub{
+     -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+@-webkit-keyframes moveFromTop {
+    from {
+        -webkit-transform: translateY(-300%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes moveFromTop {
+    from {
+        -moz-transform: translateY(-300%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromTop {
+    from {
+        -ms-transform: translateY(-300%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        -webkit-transform: translateY(200%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(200%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(200%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}

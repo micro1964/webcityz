@@ -1,0 +1,142 @@
+/* Element Style */
+.dnpgrid2wrap {
+	text-align: center;
+	background-size: 60em !important;
+	box-shadow: inset 0 0 80px rgba(0,0,0,1);
+	min-height: 300px;
+	position: relative;
+	-webkit-transition: all .3s !important;
+	-moz-transition: all .3s !important;
+	-ms-transition: all .3s !important;
+	transition: all .3s !important;
+	-webkit-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	-moz-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	-ms-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	-o-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	cursor: pointer;
+}
+.dnpgrid2wrap img {
+	max-width: 100%;
+	width: 100%;
+}
+.dnpgrid2wrap:hover {
+	background-size: 82em !important;
+	box-shadow: none !important;
+}
+.dnpgrid2wrap .dnpgrid2text {
+	text-align: center;
+	padding: 25%;
+	position: absolute;
+}
+.dnpgrid2text p {
+	color: #fff;
+}
+.dnpgrid2text h2 {
+	font-weight: 700 !important;
+	color: #fff !important;
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.dnpgrid2text span {
+	display: block;
+	color: #fff !important;
+	font-weight: 300 !important;
+}
+.dnpgrid2wrap span a {
+	color: #fff;
+}
+a.dnpgrid2morelink {
+	float: none !important;
+	background: rgba(0,0,0,0.2) !important;
+	border: 1px solid rgba(255,255,255,0.65);
+	color: #fff !important;
+	font-size: 12px;
+	padding: 10px 32px;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer
+}
+a.dnpgrid2morelink:hover {
+	background: #fff !important;
+	color: #333 !important;
+}
+.dnpgrid2wrap .col-1, .dnpgrid2wrap .col-2, .dnpgrid2wrap .col-3, .dnpgrid2wrap .col-4, .dnpgrid2wrap .col-5, .dnpgrid2wrap .col-6 {
+	width: 33.3% !important;
+	cursor: pointer
+}
+.dnpgrid2wrap:before {
+	background: rgba(0,0,0,0.2) !important;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	box-shadow: inset 0 0 0 rgba(0,0,0,1), inset 0 0 0 rgba(0,0,0,1), inset 0 0 0 rgba(0,0,0,1), inset 0 0 0 rgba(0,0,0,1);
+	-webkit-transition: all .3s !important;
+	-moz-transition: all .3s !important;
+	-ms-transition: all .3s !important;
+	transition: all .3s !important;
+	-webkit-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	-moz-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	-ms-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	-o-transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;
+	transition-timing-function: cubic-bezier(0.675, 0.075, 0.450, 0.925) !important;/* custom */
+}
+.dnpgrid2wrap:hover:before {
+	background: rgba(0,0,0,0) !important;
+	box-shadow: inset 43em 0 0 rgba(0,0,0,0.2), inset 0 43em 0 rgba(0,0,0,0.2), inset -43em 0 0 rgba(0,0,0,0.2), inset 0 -43em 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 1100px) {
+.dnpgrid2wrap .col-1, .dnpgrid2wrap .col-2, .dnpgrid2wrap .col-3, .dnpgrid2wrap .col-4, .dnpgrid2wrap .col-5, .dnpgrid2wrap .col-6 {
+	width: 50% !important;
+}
+}
+
+@media screen and (max-width: 980px) {
+.dnpgrid2wrap .dnpgrid2text {
+	padding: 25% 15%;
+}
+}
+
+@media screen and (max-width: 786px) {
+.dnpgrid2wrap .col-1, .dnpgrid2wrap .col-2, .dnpgrid2wrap .col-3, .dnpgrid2wrap .col-4, .dnpgrid2wrap .col-5, .dnpgrid2wrap .col-6 {
+	width: 100% !important;
+}
+.dnpgrid2wrap {
+	height: auto !important;
+	padding: 100px 0 !important;
+}
+.dnpgrid2wrap:before, .dnpgrid2wrap:hover:before {
+	box-shadow: none !important;
+}
+.dnpgrid2wrap .dnpgrid2text {
+	padding: 10% 25%;
+	text-align: center !important;
+	position: relative !important;
+	bottom: 0 !important;
+}
+.dnpgrid2text h2 {
+	font-size: 36px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.dnpgrid2wrap .dnpgrid2text {
+	padding: 5% 15%;
+}
+}
+
+@media screen and (max-width: 320px) {
+.dnpgrid2wrap .dnpgrid2text {
+	padding: 0 15%;
+}
+}
+/* IE FIX */
+.dnpgrid2wrap .wallpage {
+	position: static !important;
+}

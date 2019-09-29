@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+  <name>JoomlaXTC Xtream Video Player plugin</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2015-06-24</creationDate>
+	<copyright>Copyright (C) 2009-2015 Monev Software LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.4.0</version>
+  <description>JoomlaXTC Xtream Video Player plugin v1.4.0 - Visit www.joomlaxtc.com documents area for help.</description>
+  <files>
+    <filename plugin="jxtcxtream">jxtcxtream.php</filename>
+    <filename>COPYRIGHT.txt</filename>
+    <filename>LICENSE.txt</filename>
+    <filename>playerLite.swf</filename>
+  </files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="spacer" label="Plugin Tag Syntax: {video videosource,id,width,height,autoplay,bgcolor,window mode,extra fieldeters}" />
+				<field name="folder" type="folderlist" default="" label="Select a media folder" directory="media" hide_none="1" description="Media folder for FLV video files." />
+				<field name="width" type="text" default="200" label="Default Width" description="Video width (in pixels)." />
+				<field name="height" type="text" default="150" label="Default Height" description="Video height (in pixels)." />
+				<field name="wmode" type="list" default="transparent" label="Window mode?" description="Choose Flash window mode." >
+					<option value="opaque">Opaque</option>
+					<option value="transparent">Transparent</option>
+					<option value="window">Window</option>
+				</field>
+				<field name="bgcolor" type="text" default="#FFFFFF" label="Background color" description="Background color (format: #RRGGBB)." />
+				<field name="autoplay" type="list" default="1" label="Auto play?" description="Enable or disable autoplay option (if available)." >
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="fullscreen" type="list" default="1" label="Allow fullscreen?" description="Enable or disable fullscreen option (if available)." >
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

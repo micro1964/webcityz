@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<extension type="module" version="1.6.0" method="upgrade">
+	<name>JoomlaXTC HTML Module</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2013-04-05</creationDate>
+	<copyright>Copyright (C) 2010,2011,2012,2013 Monev Software LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.1.0</version>
+	<description>JoomlaXTC HTML Module - Visit www.joomlaxtc.com documents area for help.</description>
+	<files>
+		<filename module="mod_jxtc_html">mod_jxtc_html.php</filename>
+		<filename>COPYRIGHT.php</filename>
+		<filename>LICENSE.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="mode" type="list" default="1" label="Content Mode" description="Select the method to apply the text in the HTML document." >
+					<option value="1">HTML</option>
+					<option value="2">CSS in &amp;lt;head&amp;gt; section</option>
+					<option value="3">JavaScript in &amp;lt;head&amp;gt; section</option>
+				</field>
+				<field name="plugins" type="radio" default="0" label="Enable Content Plugins" description="Apply Joomla! Content Plugins to custom HTML." >
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="html" type="textarea" filter="RAW" default="" rows="20" cols="60" label="Custom HTML Output" description="" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,76 @@
+#jxtc_komentowall_tmp16 {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+
+}
+.jxtc_komentowall_tmp16_face.jxtc_komentowall_tmp16_back2 {
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background-color: #000;
+	transform: rotateX(-180deg);
+	-moz-transform: rotateX(-180deg);
+	-webkit-transform: rotateX(-180deg);
+	-o-transform: rotateX(-180deg);
+	-ms-transform: rotateX(-180deg);
+	
+}
+
+.jxtc_komentowall_tmp16_intro {padding-bottom:24px;margin-bottom:14px;}
+h3.jxtc_komentowall_tmp16_title, .jxtc_komentowall_tmp16_a{font-size:16px;margin:0 0 8px 0;line-height:100%;text-align:center;padding:0;border:none!important;color:#fff!important;}
+.jxtc_komentowall_tmp16_register,.jxtc_komentowall_tmp16_register a{font-size:12px;color:#fff;padding-bottom:12px;}
+
+#jxtc_komentowall_tmp16 {
+	position: relative;
+	z-index: 1;
+
+}
+.jxtc_komentowall_tmp16_face.jxtc_komentowall_tmp16_back {
+	display: none;
+}
+
+
+
+
+
+#jxtc_komentowall_tmp16 {
+	perspective: 1000;	
+	-moz-perspective: 1000px;		
+		-o-perspective: 1000px;	
+			-webkit-perspective: 1000px;	
+			-ms-perspective: 1000px;		
+}
+#jxtc_komentowall_tmp16_card {
+	width: 100%;
+	height: 100%;	
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
+	-moz-transform-style: preserve-3d;
+	-moz-transition: all 0.5s linear;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 0.5s linear;
+	-o-transform-style: preserve-3d;
+	-o-transition: all 0.5s linear;
+	-ms-transform-style: preserve-3d;
+	-ms-transition: all 0.5s linear;
+		
+}
+#jxtc_komentowall_tmp16:hover #jxtc_komentowall_tmp16_card {
+	transform: rotateX(-180deg);
+	-moz-transform: rotateX(-180deg);
+	-o-transform: rotateX(-180deg);
+	-webkit-transform: rotateX(-180deg);
+		-ms-transform: rotateX(-180deg);
+	
+}
+.jxtc_komentowall_tmp16_face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}

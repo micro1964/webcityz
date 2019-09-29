@@ -1,0 +1,172 @@
+/* Element Style */
+.categorywrap-left img {
+	max-width: 100%;
+	width: 100%;
+}
+.categorywrap-left {
+	background: #333;
+}
+.categorywrap-left .main {
+	width: 66.3% !important;
+	float: right;
+}
+.categorywrap-left .more {
+	width: 33.6%;
+	float: left;
+	text-align: left;
+	padding: 5px 0;
+}
+.categorywrap-left .main .articlemain {
+	height: 500px !important;
+	text-align: left;
+}
+.categorywrap-left .main .articlemaintext {
+	position: absolute;
+	bottom: 52px;
+	left: 60px;
+	font-weight: 700;
+	width: 60%;
+}
+.categorywrap-left .main .articlemain h2 {
+	font-weight: 700 !important;
+	font-size: 80px;
+	line-height: 100% !important;
+	color: #fff;
+}
+.categorywrap-left .main .articlemain .morelink {
+	background: none !important;
+	border: 1px solid rgba(255,255,255,0.65);
+	color: #fff !important;
+	font-size: 12px;
+	padding: 6px 32px 7px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 20px !important;
+	display: inline-block;
+}
+.categorywrap-left .main .articlemain .morelink:hover {
+	background: #fff !important;
+	color: #333 !important;
+}
+.categorywrap-left .more .featuredeventsmore {
+	text-align: right;
+	padding: 15px 60px 15px 0;
+	cursor: pointer
+}
+.categorywrap-left .more .featuredeventsmore:hover {
+	background: #393939;
+	padding: 15px 80px 15px 0;
+}
+.categorywrap-left .more .featuredeventsmore h2 {
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 0;
+	display: inline-block;
+	margin: 0 !important;
+}
+.categorywrap-left .more .featuredeventsmore p {
+	color: #aaa;
+	margin: 0 !important;
+}
+.categorywrap-left .more .featuredeventsmore:hover {
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	-ms-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 0.15s, 0.15s;
+	-moz-transition-duration: 0.15s, 0.15s;
+	-o-transition-duration: 0.15s, 0.15s;
+	-ms-transition-duration: 0.15s, .15s;
+	transition-duration: 0.15s, .15s;
+	-webkit-transition-timing-function: ease-in, ease-out;
+	-moz-transition-timing-function: ease-in, ease-out;
+	-o-transition-timing-function: ease-in, ease-out;
+	-ms-transition-timing-function: ease-in, ease-out;
+	transition-timing-function: ease-in, ease-out;
+}
+
+@media(max-width:1280px) {
+.categorywrap-left .main {
+	width: 50% !important;
+}
+.categorywrap-left .more {
+	width: 50% !important;
+}
+.categorywrap-left .main .articlemaintext {
+	width: auto !important;
+}
+.categorywrap-left .main .articlemain {
+	height: 483px !important;
+}
+.categorywrap-left .more .featuredeventsmore h2 {
+	font-size: 22px;
+}
+}
+
+@media(max-width:800px) {
+.categorywrap-left .main, .categorywrap-left .more {
+	width: 100% !important;
+	float: none !important;
+}
+.categorywrap-left .main .articlemain, .categorywrap-left .more .featuredeventsmore {
+	text-align: center !important;
+	height: auto !important;
+}
+.categorywrap-left .main .articlemain {
+	padding: 50px 0;
+}
+.categorywrap-left .main .articlemaintext {
+	position: static !important;
+	width: 100% !important;
+}
+.categorywrap-left .more {
+	height: auto !important;
+}
+.categorywrap-left .more {
+	padding: 50px 0 30px !important;
+}
+.categorywrap-left .more .featuredeventsmore {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+}
+
+@media(max-width:500px) {
+.categorywrap-left .main .articlemain {
+	padding: 30px !important;
+}
+.categorywrap-left .more {
+	padding: 20px 0 !important;
+}
+.categorywrap-left .more .featuredeventsmore {
+	padding: 10px 20px !important;
+}
+.categorywrap-left .main .articlemain h2 {
+	font-size: 48px !important;
+}
+.categorywrap-left .main .articlemain .morelink {
+	margin-top: 12px !important;
+}
+}
+
+@media(max-width:320px) {
+.categorywrap-left .main .articlemain h2 {
+	font-size: 24px !important;
+	line-height: 100% !important;
+	color: #fff;
+}
+}
+
+/* CSS3 Responsive Breakpoints */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+.articlemain {
+	background-attachment: scroll !important;
+}
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+.articlemain {
+	background-attachment: scroll !important;
+}
+}

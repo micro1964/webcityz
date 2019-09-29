@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Cart">
+		<message>
+			<![CDATA[Displays the Cart for K2 Store.]]>
+		</message>
+	</layout>	
+	<state>
+		<name>Shows Cart Layout</name>
+		<description>Displays a cart layout Desc</description>
+		<params>
+		
+		</params>
+	</state>
+		
+</metadata>

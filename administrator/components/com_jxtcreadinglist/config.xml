@@ -1,0 +1,18 @@
+<config>
+  <fields>
+		<fieldset name="component" label="RL_CONFIGURATION" description="RL_CONFIGURATION_DESC">
+			<field name="showcopy" type="radio" class="btn-group" default="1" label="Show &quot;Copy&quot; option" description="RL_SHOWCOPY_DESC" >
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="showemail" type="radio" class="btn-group" default="1" label="Show &quot;Email&quot; option" description="RL_SHOWEMAIL_DESC" >
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="newwindow" type="radio" class="btn-group" default="0" label="Links on new window" description="RL_NEWWINDOW_DESC" >
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+		</fieldset>
+  </fields>
+</config>

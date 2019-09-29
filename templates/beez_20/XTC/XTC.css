@@ -1,0 +1,172 @@
+/* Joomla overrides */
+
+fieldset.panelform {
+	padding-left:5px !important;
+	padding-right:5px !important;
+	padding-bottom:0px !important;
+	margin-bottom:0px !important;
+}
+
+fieldset.radio {
+	padding:0px !important;
+	margin:0px !important;
+	background:transparent !important;
+}
+fieldset.radio label {
+	min-width:30px !important;
+	width:auto !important;
+}
+
+
+.pane-sliders .content {
+	height:auto !important;
+}
+
+/* XTC panes */
+
+.xtcPane {
+	margin-top:3px;
+	margin-bottom:8px;
+}
+
+.xtcPaneName {
+	height:28px;
+	line-height:28px;
+	background:url("images/nameBkg.gif") left repeat-x;
+	border:1px solid #dddddd;
+	cursor:pointer;
+	display:block;
+}
+.xtcPaneName:link, .xtcPaneName:visited, .xtcPaneName:hover, .xtcPaneName:active {
+	text-decoration:none;
+}
+
+.xtcPaneName span {
+	color:#343434;
+	font-size: 13px;
+	letter-spacing: .075em;
+	text-shadow: #000000 0px -2px 0px;
+	text-shadow: #ffffff 0px 0px 0.3em;
+	padding-left:26px;
+	background:url("images/nameRight.gif") left no-repeat;
+}
+
+.open .xtcPaneName span {
+	background:url("images/nameDown.gif") left no-repeat;
+}
+
+.xtcPaneContents {
+	background:#f6f6f6;
+	padding:10px;
+	display:none;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+}
+.xtcFormList input, .xtcFormList select {
+	padding:1px 4px 1px 4px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}
+.xtcFormList option {
+	padding:0 5px 0 7px;
+}
+
+.open .xtcPaneContents {
+	display:block;
+}
+
+/* XTC parameter tables */
+.xtcParamTable {
+}
+.xtcParamLabel {
+}
+.xtcParamInput {
+}
+
+/* LAYOUTS */
+
+.layoutGroups {
+}
+.xtcLayoutTable {
+	width:100%;
+}
+.xtcLayoutTable td {
+	vertical-align:top;
+	text-align:left;
+}
+.layoutImageTd {
+	width:1%;
+}
+.layoutImage {
+	border:1px solid #cccccc;
+}
+.layoutDescription {
+	color:#343434;
+	font-size:14px;
+	border-bottom:1px solid #cccccc;
+	padding:5px 0 10px 0;
+	margin-bottom:5px;
+}
+
+.layoutGroups label {
+	width:50%;
+}
+
+/* STYLES */
+.xtcStyleTable {
+	width:100%;
+}
+.xtcStyleTable td {
+	vertical-align:top;
+	text-align:left;
+}
+.styleImageTd {
+	width:1%;
+}
+.styleImage {
+	border:1px solid #cccccc;
+	height:150px;
+}
+.styleDescription {
+	color:#343434;
+	font-size:14px;
+	border-bottom:1px solid #cccccc;
+	padding:5px 0 10px 0;
+	margin-bottom:5px;
+}
+
+.xtcFieldset {
+	background:transparent !important;
+	border:1px solid #cccccc !important;
+	margin-top:15px !important;
+	padding-bottom:0px !important;
+}
+
+.xtcFieldsetLegend {
+	padding:0 15px 0 15px !important;
+	color:#888888 !important;
+	font-size: 13px !important;
+	font-weight:normal !important;
+}
+
+.xtcFieldsetDescription {
+	font-size:14px;
+	border-bottom:1px solid #cccccc;
+	padding:5px 0 10px 0;
+	margin-bottom:5px;
+	color:#343434;
+}
+
+.styleGroups label {
+	width:50%;
+}
+
+
+.advancedGroups {
+	background:#f6f6f6;
+	padding:10px;
+	border:1px solid #dddddd;
+	margin: 3px 0 8px 0;
+}	

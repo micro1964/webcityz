@@ -1,0 +1,102 @@
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+.dnpslider1wrap_mainarea {
+	margin-top: 28px;
+	cursor: pointer
+}
+.dnpslider1wrap h2 {
+	font-weight: 700;
+	font-size: 14px;
+}
+.dnpslider1wrap img {
+	max-width: 100%;
+	width: 100%;
+}
+.xtcsslider {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+.xtcsslider h3 {
+	color: #fff;
+	font-weight: 700;
+}
+.xtcsslider p {
+	font-size: 11px !important;
+	margin: 0 !important;
+	padding: 0 10px;
+}
+.xtcsslider a {
+	font-size: 11px !important;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 8px 12px;
+}
+.xtcsslider a:hover {
+	color: #fff;
+}
+.xtcsslider li .overlay {
+	display: block;
+	background-color: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.8);
+	height: 0;
+	color: #fff;
+	width: 96.1%;
+	padding: 2%;
+	overflow: hidden;
+	opacity: 1;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	height: 15%;
+}
+.xtcsslider li .overlay h3 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.xtcsslider li .overlay p {
+	margin-bottom: 10px;
+}
+.xtcsslider li .overlay a {
+	text-transform: uppercase;
+}
+.xtcsslider li:hover .overlay {
+	height: 75%;
+	opacity: 1;
+}
+.xtcsslider li img {
+	display: block;
+	width: 100%;
+}
+.xtcsslider li {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	-webkit-transition: opacity .6s ease-in-out;
+	-moz-transition: opacity .6s ease-in-out;
+	-o-transition: opacity .6s ease-in-out;
+	-ms-transition: opacity .6s ease-in-out;
+	transition: opacity .6s ease-in-out;
+}

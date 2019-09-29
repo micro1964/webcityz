@@ -1,0 +1,201 @@
+/* Default CSS */
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+/* Element Area */
+figure.effect-marley {
+	margin-bottom: 20px;
+}
+/* Common style */
+figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0;
+	background: #000;
+	text-align: center;
+	cursor: pointer;
+}
+figure:hover {
+	background: #3085a3;
+}
+figure img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	opacity: .6;
+}
+figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure figcaption::before, figure figcaption::after {
+	pointer-events: none;
+}
+figure figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 70%;
+}
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+figure.effect-marley h2 {
+	word-spacing: -.15em;
+	font-weight: 900 !important;
+	color: #fff;
+	font-size: 32px;
+}
+figure span {
+	font-weight: 100;
+}
+figure h2, figure p {
+	margin: 0;
+}
+figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+	font-weight: 400;
+}
+figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+figure.effect-marley figcaption {
+	text-align: left;
+}
+figure.effect-marley h2, figure.effect-marley p {
+	position: absolute;
+	right: 30px;
+	left: 30px;
+	padding: 10px 0;
+}
+figure.effect-marley p {
+	bottom: 30px;
+	line-height: 1.5;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
+figure.effect-marley h2 {
+	top: 30px;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(0, 20px, 0);
+	transform: translate3d(0, 20px, 0);
+}
+figure.effect-marley:hover h2 {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+figure.effect-marley h2::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #fff;
+	content: '';
+	-webkit-transform: translate3d(0, 40px, 0);
+	transform: translate3d(0, 40px, 0);
+}
+figure.effect-marley h2::after, figure.effect-marley p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform .35s;
+	transition: opacity 0.35s, transform .35s;
+}
+figure.effect-marley:hover h2::after, figure.effect-marley:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+@media screen and (max-width: 979px) {
+figure.effect-marley h2::after, figure.effect-marley p {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+}
+
+@media (max-width: 690px) {
+figure.effect-marley p {
+	top: 120px;
+}
+figure p {
+	font-size: 18px !important;
+}
+figure h2 {
+	font-size: 32px !important;
+}
+}
+
+@media (max-width: 640px) {
+figure.effect-marley p {
+	top: 100px;
+}
+figure p {
+	font-size: 16px !important;
+}
+figure h2 {
+	font-size: 32px !important;
+}
+}
+
+@media (max-width: 480px) {
+figure.effect-marley h2 {
+	top: 0;
+}
+figure.effect-marley p {
+	top: 70px;
+}
+figure p {
+	font-size: 11px !important;
+}
+figure h2 {
+	font-size: 24px !important;
+}
+}
+
+@media (max-width: 320px) {
+figure.effect-marley h2 {
+	top: 0;
+}
+figure.effect-marley p {
+	top: 58px;
+}
+figure p {
+	font-size: 9px !important;
+}
+figure h2 {
+	font-size: 16px !important;
+}
+}

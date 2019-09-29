@@ -1,0 +1,76 @@
+
+
+.jxtc_newspro_tmp15{width: 600px;position: relative;width: 300px;list-style:none;text-decoration:none;}
+.jxtc_newspro_tmp15wrap tr.row-1 img{top:0;}
+.jxtc_newspro_tmp15wrap tr.row-2 img{top:-97px;}
+.jxtc_newspro_tmp15wrap tr.row-3 img{top:-194px;}
+.jxtc_newspro_tmp15wrap tr.row-4 img{top:-291px;}
+.jxtc_newspro_tmp15wrap tr.row-5 img{top:-388px;}
+.jxtc_newspro_tmp15wrap tr.row-6 img{top:-485px;}
+.jxtc_newspro_tmp15wrap tr.row-7 img{top:-582px;}
+.jxtc_newspro_tmp15wrap tr.row-8 img{top:-679px;}
+.jxtc_newspro_tmp15wrap tr.row-9 img{top:-776px;}
+.jxtc_newspro_tmp15wrap tr.row-10 img{top:-873px;}
+
+
+.jxtc_newspro_tmp15 a{	
+	display: block;
+	width: 280px;
+	padding: 0px 10px;
+	text-align: right;
+	position: relative;
+	z-index: 10;
+	background: #fff;
+	height: 97px;
+	border-right: 1px solid #ddd;
+	background: rgba(255,255,255, 0.8);
+}
+.jxtc_newspro_tmp15 :hover a{
+	background: rgba(255,255,255, 1);
+	text-decoration:none;
+}
+.jxtc_newspro_tmp15 a span{
+	display:block;
+}
+.jxtc_newspro_tmp15 a span:first-child{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ae3637;
+	padding-top: 10px;
+	font-family: 'Alegreya SC', Georgia, serif;	text-decoration:none;
+}
+.jxtc_newspro_tmp15 a span:nth-child(2){
+color: #75787b;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 12px;
+	font-family: 'Alegreya SC', Georgia, serif;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	-ms-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+	text-decoration:none!important;
+}
+
+.jxtc_newspro_tmp15 img{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top:0px;
+	opacity: 0;
+	-webkit-transition: left 0.4s ease-in-out, opacity 0.6s ease-in-out;
+	-moz-transition: left 0.4s ease-in-out, opacity 0.6s ease-in-out;
+	-o-transition: left 0.4s ease-in-out, opacity 0.6s ease-in-out;
+	-ms-transition: left 0.4s ease-in-out, opacity 0.6s ease-in-out;
+	transition: left 0.4s ease-in-out, opacity 0.6s ease-in-out;
+}
+.jxtc_newspro_tmp15:hover img{
+	left: 300px;
+	opacity: 1;
+}
+
+
+
+			

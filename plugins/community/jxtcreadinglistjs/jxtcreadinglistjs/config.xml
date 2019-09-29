@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="community">
+  <params>
+	  <param name="newwindow" type="list" default="0" label="Content Window Mode" description="Select to read contents on the same browser window or in a new one." >
+	   <option value="0">Same window</option>
+	   <option value="1">New window</option>
+	  </param>
+		<param name="maxitems" type="text" label="Max. Items" default="5" description="Enter the maximum number of content items shown per category." />
+  </params>
+</install>

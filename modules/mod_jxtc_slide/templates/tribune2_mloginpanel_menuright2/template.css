@@ -1,0 +1,67 @@
+.slide-container{
+margin: 358px 0 0 -11px;
+  font-size:14px;
+  color:#333;
+  z-index:999999!important;
+  border: 12px solid #ccc;
+
+}
+
+.slide-inner-container{
+  
+}
+
+.logintopper {
+	background:none repeat scroll 0 0 #EEEEEE;
+	color:#545C65;
+	padding:20px 0 20px 22px;
+}
+
+.logintopper h4 {
+	font-size:24px;
+}
+
+.slide-container #form-login p{
+  margin-bottom:8px;
+  letter-spacing:1px;
+}
+
+.slide-container #form-login ul{
+  list-style:none;
+  margin-top:25px;
+}
+
+.slide-container #form-login ul li a{
+  display:block;
+  padding:0px 0px 4px 0px;
+  font-size:14px;
+  color:#336699;
+}
+
+.slide-leftbox{
+  padding:24px;
+
+}
+
+
+.slide-rightbox{
+ padding:24px;
+  text-align:left;
+ 
+}
+
+.slide-close{
+  display:block;
+  bottom:auto !important;
+  right:30px !important;
+  margin-top:10px;
+  padding:10px;
+  font-size:12px;
+  font-weight:bold;
+  color:#999 !important;
+}
+.slide-container .register_joomla{
+  display:block;
+  padding:10px 0px 10px 0px;
+  font-size:11px;
+}

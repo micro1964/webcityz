@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>XTC Framework</name>
+	<description>These parameters control the template framework</description>
+	<fields name="params">
+ 		<fieldset name="basic" label="ejemplo label" description="ejemplo description">
+			<field name="CSSmode" type="list" default="2" label="CSS Mode" description="Set CSS mode." >  
+				<option value="1">Single File</option>
+				<option value="2">Separate Files</option>
+				<option value="3">Head Embedding</option>
+			</field>
+			<field name="CSScompression" type="radio" class="btn-group" default="0" label="CSS Compression" description="Enable or disable CSS compression." >  
+				<option value="0">Off</option>
+				<option value="1">On</option>
+			</field>
+			<field name="showComponents" type="component" default="all" label="Frontpage Components" description="Select which components will be allowed to show in the frontpage. This setting does not affect any inner pages. Press CTRL key while clicking for multiple choices." />
+		</fieldset>
+	</fields>
+</form>

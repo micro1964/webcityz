@@ -1,0 +1,40 @@
+/* Default CSS */
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+h2.spins {
+	font-size: 16px;
+	text-align: center;
+}
+.spinner img {
+	border-radius: 50%;
+	width: 90%;
+	height: 90%
+}
+.spinner {
+	-webkit-transition: All .642s ease;
+	-moz-transition: All .642s ease;
+	-o-transition: All .642s ease;
+	-webkit-transform: rotate(360deg) scale(1.0) skew(180deg) translate(4px);
+	-moz-transform: rotate(360deg) scale(1.0) skew(180deg) translate(4px);
+	-o-transform: rotate(360deg) scale(1.0) skew(180deg) translate(4px);
+	cursor: pointer;
+}
+.spinner:hover {
+	-webkit-transform: rotate(0deg) scale(0.941) skew(180deg) translate(4px);
+	-moz-transform: rotate(0deg) scale(0.941) skew(180deg) translate(4px);
+	-o-transform: rotate(0deg) scale(0.941) skew(180deg) translate(4px);
+}

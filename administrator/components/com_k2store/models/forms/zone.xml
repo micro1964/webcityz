@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<form>
+	<fieldset >
+		<field name="zone_id" type="hidden"
+			default="0"
+			label="K2STORE_ZONE_ID_LABEL"
+			readonly="true"			
+			size="10"
+		/>
+
+		<field name="zone_name" type="text"
+			description="K2STORE_ZONE_NAME_DESC"
+			label="K2STORE_ZONE_NAME_LABEL"
+			required="true"	
+			size="30"
+		/>
+
+		<field name="zone_code" type="text"
+			description="K2STORE_ZONE_CODE_DESC"
+			label="K2STORE_ZONE_CODE_LABEL"
+			required="true"	
+			size="3" maxlength="3"
+		/>
+		
+		<field name="country_id" type="CountryList"
+			description="K2STORE_ZONE_COUNTRY_NAME_DESC"
+			label="K2STORE_ZONE_COUNTRY_NAME_LABEL"
+			required="true"	
+			size="30"
+		/>
+		
+		<field name="state" type="list"
+			description="K2STORE_STATE_DESC"
+			label="K2STORE_STATE_LABEL"
+			required="true"
+			size="1" default="1" >
+			<option value="1">	JPUBLISHED</option>
+			<option value="0">	JUNPUBLISHED</option>
+		</field>
+			
+			
+	</fieldset>
+
+</form>

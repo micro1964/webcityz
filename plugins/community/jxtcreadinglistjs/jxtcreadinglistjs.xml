@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="community" method="upgrade">
+	<name>Reading List</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2013-04-16</creationDate>
+	<copyright>Copyright (C) 2012,2013 JoomlaXTC</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.3.1</version>
+	<isapplication>true</isapplication>
+	<description>
+		JoomlaXTC Reading List plugin for JomSocial
+	</description>
+	<files>
+		<file plugin="jxtcreadinglistjs">jxtcreadinglistjs.php</file>
+		<file>index.html</file>
+		<folder>jxtcreadinglistjs</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="coreapp" type="list" default="0" label="Core Application" description="Causes this application to not appearin the users applications list but it will allow this application to appear in the user profile automatically if selected.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this plugin">
+					<option value="1">Use Global</option>
+					<option value="0">No</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

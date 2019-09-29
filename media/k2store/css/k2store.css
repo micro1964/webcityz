@@ -1,0 +1,236 @@
+/*  set the width and height of cart images here*/
+.itemImgSmall {
+	width: 80px;
+}
+
+.itemImgMedium {
+	width: 100px;
+}
+
+.itemImgLarge {
+	width: 130px;
+}
+
+table#cart a div.k2storeCartRemove {
+	background: url("../images/remove-roll.png") no-repeat scroll 0 0
+		transparent;
+	height: 18px;
+	width: 18px;
+}
+
+table#cart a:hover div.k2storeCartRemove {
+	background: url("../images/remove-over.png") no-repeat scroll 0 0
+		transparent;
+}
+
+.k2store .product_quantity_input input {
+	width: 20px;
+}
+.pao {
+	padding: 5px;
+}
+
+.k2store strike {
+	color: #ff0000;
+}
+
+.k2store .product_price,
+.k2store .product_special_price
+ {
+	display: block;
+ }
+ 
+ .k2store .currency_symbol {
+ margin-right: 2px;
+ }
+
+.k2store .checkout-heading {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #DBDEE1;
+    color: #555555;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.k2store .checkout-heading a {
+    float: right;
+    font-weight: normal;
+    margin-top: 1px;
+    text-decoration: none;
+    cursor:pointer;
+}
+.k2store .checkout-content {
+    display: none;
+    overflow: auto;
+    padding: 0 0 15px;
+}
+
+.k2store .checkout-content .buttons {
+    clear: both;
+}
+
+.k2store.checkout tr, .k2store.checkout td {
+	border: none;
+	padding-right: 10px;
+}
+.k2store #billing-existing select[size],
+.k2store #shipping-existing select[size]
+ {
+	height: auto; 
+}
+.k2store .options .required {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.k2error,
+div.k2error em.error,
+div.k2storeerror em.error,
+.payment_info input.error,
+.k2store label.error
+
+ {
+	color: #ff0000;
+	font-style: italic;
+}
+
+div.k2error em.success,
+div.k2storeerror em.success,
+.k2store label.success
+{
+	color: #17B500;
+	font-style: italic;
+}
+
+.k2store input.error { border: 1px solid red; }
+.k2store input.valid { border: 1px solid #17B500;	}
+
+.k2storeCartForm1 {
+	position: relative;
+}
+.k2store-notification {
+	background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: wait;
+    margin-left: 0;
+    margin-top: -30px;
+    padding: 1em;
+    position: relative;
+    width: 200px;
+    z-index: 1000;
+}
+.k2store-notification .k2success { float: left; }
+
+.k2store-notification .cart_dialogue_close {
+ background: none repeat scroll 0 0 #FF0000;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    width: 18px;
+}
+
+
+.k2store-product-info label {
+display: inline;
+}
+
+.product_quantity_input input {
+width: 20px;
+}
+
+/* name spaced bootstrap modal */
+
+.modal-backdrop {
+    background-color: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+.modal-backdrop.fade {
+    opacity: 0;
+}
+.modal-backdrop, .modal-backdrop.fade.in {
+    opacity: 0.8;
+}
+
+.k2store-modal {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    left: 50%;
+    margin-left: -280px;
+    outline: medium none;
+    position: fixed;
+    top: 10%;
+    width: 560px;
+    z-index: 1050;
+}
+.k2store-modal.fade {
+    top: -25%;
+    transition: opacity 0.3s linear 0s, top 0.3s ease-out 0s;
+}
+.k2store-modal.fade.in {
+    top: 10%;
+}
+.k2store-modal .modal-header {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 9px 15px;
+}
+.k2store-modal .modal-header .close {
+    margin-top: 2px;
+}
+.k2store-modal .modal-header h3 {
+    line-height: 30px;
+    margin: 0;
+}
+.k2store-modal .modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+}
+.k2store-modal .modal-form {
+    margin-bottom: 0;
+}
+.k2store-modal .modal-footer {
+    background-color: #F5F5F5;
+    border-radius: 0 0 6px 6px;
+    border-top: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    margin-bottom: 0;
+    padding: 14px 15px 15px;
+    text-align: right;
+}
+.k2store-modal .modal-footer:before, .k2store-modal .modal-footer:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.k2store-modal .modal-footer:after {
+    clear: both;
+}
+.k2store-modal .modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.k2store-modal .modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.k2store-modal .modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}

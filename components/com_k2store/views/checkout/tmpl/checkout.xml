@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Checkout">
+		<message>
+			<![CDATA[K2STORE_MENU_CHECKOUT_ONEPAGE_MESSAGE]]>
+		</message>
+	</layout>
+
+	<state>
+		<name>K2STORE_MENU_CHECKOUT_ONEPAGE_NAME</name>
+		<description>K2STORE_MENU_CHECKOUT_ONEPAGE_DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

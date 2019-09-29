@@ -1,0 +1,117 @@
+.legend {
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background-color: #e0e0e0;
+	padding: 2px 5px 2px 2px;
+	border-bottom: 1px solid #333;
+}
+.tag {
+	padding: 2px;
+	font-size: 10px;
+	font-family: Arial;
+	color: #333;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #333;
+}
+.dnpfe1wrapmain img {
+	max-width: 100%;
+	width: 100%;
+}
+.dnpfe1wrapmain .dnpfe1main {
+	float: left;
+	margin-bottom: 35px;
+}
+.dnpfe1wrapmain .textwrap {
+	padding: 35px 20px 40px 40px;
+	width: 50%;
+	float: right;
+	background: rgba(0,0,0,0.80);
+	color: #fff !important;
+}
+.textwrap {
+}
+.textwrap .badgedate {
+	padding: 17px;
+	background: #111;
+	color: #fff;
+	width: 40px;
+	height: 35px;
+	left: 0;
+	margin-top: -35px;
+	position: absolute;
+	text-align: center;
+}
+.textwrap h3 {
+	margin-bottom: 20px;
+	color: #fff;
+}
+.textwrap p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.textwrap a, .textwrap a:hover {
+	padding: 10px 24px;
+	font-weight: 100;
+	background: #333;
+	color: #fff;
+	display: inline-block;
+}
+.lastrow .dnpfe1main {
+	margin-bottom: 0 !important;
+}
+.textwrap span.artday {
+	display: block;
+	font-size: 26px;
+	line-height: 100%;
+}
+.textwrap span.artmonth {
+	text-transform: uppercase;
+	font-size: 11px;
+	display: block;
+	line-height: 90%;
+}
+
+@media(max-width:900px) {
+.textwrap h3 {
+	font-size: 30px !important;
+}
+.textwrap .badgedate {
+	border: none !important;
+}
+}
+
+@media(max-width:768px) {
+.textwrap a, .textwrap p {
+	font-weight: 500 !important;
+}
+}
+
+@media(max-width:660px) {
+.dnpfe1wrapmain .textwrap {
+	margin-top: 45% !important;
+	padding: 24px 20px !important;
+	width: auto !important;
+	float: none !important;
+}
+.textwrap .badgedate {
+	display: none !important;
+}
+.textwrap h3 {
+	font-size: 26px !important;
+}
+}
+
+@media(max-width:560px) {
+.dnpfe1wrapmain {
+	width: 100% !important;
+	margin-bottom: 2.5% !important;
+}
+.dnpfe1wrapmore {
+	width: 100% !important;
+	margin-left: 0 !important;
+}
+.dnpfe1main {
+	margin-bottom: 2.5% !important;
+}
+}
